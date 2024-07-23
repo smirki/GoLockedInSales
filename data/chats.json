@@ -1,0 +1,39 @@
+[
+  {
+    "userId": 1,
+    "username": "manavmaj2001@gmail.com",
+    "messages": [
+      {
+        "sender": "manavmaj2001@gmail.com",
+        "text": "hi",
+        "timestamp": "2024-07-23T03:04:17.921Z",
+        "read": true
+      },
+      {
+        "sender": "Staff",
+        "text": "yeah u better say hi",
+        "timestamp": "2024-07-23T03:04:27.605Z",
+        "read": false
+      },
+      {
+        "sender": "Staff",
+        "text": "what is happening",
+        "timestamp": "2024-07-23T03:04:46.801Z",
+        "read": false
+      },
+      {
+        "sender": "Staff",
+        "text": "lol",
+        "timestamp": "2024-07-23T03:04:49.123Z",
+        "read": false
+      },
+      {
+        "sender": "Staff",
+        "text": "this is funny",
+        "timestamp": "2024-07-23T03:08:55.748Z",
+        "read": false
+      }
+    ],
+    "needsResponse": false
+  }
+]

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Staff Dashboard</title>
+    <style>
+        #dashboard-container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .chat-list {
+            width: 30%;
+            padding: 10px;
+            border-right: 1px solid #ddd;
+        }
+        .chat {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: #fff;
+        }
+        .chat:hover {
+            background-color: #f0f0f0;
+        }
+        .chat.needs-response {
+            border-left: 5px solid red;
+        }
+        .chat-messages {
+            width: 70%;
+            padding: 10px;
+        }
+        .chat-messages ul {
+            list-style: none;
+            padding: 0;
+            max-height: 400px;
+            overflow-y: scroll;
+        }
+        .chat-messages ul li {
+            padding: 8px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .chat-messages ul .user-message {
+            background-color: #d4f1c5;
+            text-align: right;
+        }
+        .chat-messages ul .staff-message {
+            background-color: #f1d4d4;
+            text-align: left;
+        }
+        .chat-messages ul .timestamp {
+            display: block;
+            font-size: 0.8em;
+            color: #999;
+        }
+        .viewing-count {
+            font-size: 0.9em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div id="dashboard-container">
+        <div class="chat-list" id="conversations"></div>
+        <div class="chat-messages">
+            <h3 id="chat-header">Select a chat</h3>
+            <ul id="messages"></ul>
+            <form id="response-form">
+                <input id="response-msg" type="text" placeholder="Enter response..." autocomplete="off" required>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        const socket = io();
+        let currentChatUserId = null;
+        let responseMsg = document.getElementById('response-msg');
+
+        socket.emit('staffJoin');
+
+        socket.on('connect_error', (error) => {
+            console.error('Connection error:', error);
+            Swal.fire('Error', 'Failed to connect to the server. Please try again later.', 'error');
+        });
+
+        function loadChats() {
+    fetch('/api/staff/dashboard')
+        .then(response => response.json())
+        .then(chats => {
+            const conversationsDiv = document.getElementById('conversations');
+            conversationsDiv.innerHTML = '';
+            chats.sort((a, b) => new Date(b.messages[b.messages.length - 1].timestamp) - new Date(a.messages[a.messages.length - 1].timestamp));
+            chats.forEach(chat => {
+                const chatDiv = document.createElement('div');
+                chatDiv.classList.add('chat');
+                if (chat.needsResponse) {
+                    chatDiv.classList.add('needs-response');
+                }
+                chatDiv.dataset.userId = chat.userId;
+                chatDiv.innerHTML = `
+                    <h4>${chat.username}</h4>
+                    <p>Messages: ${chat.messages.length}</p>
+                    <p>Last Message: ${new Date(chat.messages[chat.messages.length - 1].timestamp).toLocaleTimeString()}</p>
+                    <p class="viewing-count" id="viewing-count-${chat.userId}">Viewing: 0</p>
+                `;
+                chatDiv.addEventListener('click', () => {
+                    openChat(chat.userId);
+                    socket.emit('markAsRead', chat.userId);
+                });
+                conversationsDiv.appendChild(chatDiv);
+            });
+        })
+        .catch(error => {
+            console.error('Error loading chats:', error);
+            Swal.fire('Error', 'Failed to load chats. Please refresh the page.', 'error');
+        });
+}
+
+
+        function openChat(userId) {
+            if (currentChatUserId) {
+                socket.emit('stopViewing', { userId: currentChatUserId });
+            }
+            currentChatUserId = userId;
+            socket.emit('staffViewing', { userId });
+            fetch('/api/staff/dashboard')
+                .then(response => response.json())
+                .then(chats => {
+                    const chat = chats.find(c => c.userId === userId);
+                    if (chat) {
+                        document.getElementById('chat-header').innerText = `Chat with ${chat.username}`;
+                        const messagesUl = document.getElementById('messages');
+                        messagesUl.innerHTML = '';
+                        chat.messages.forEach(msg => {
+                            addMessageToChat(msg);
+                        });
+                        scrollToBottom();
+                    }
+                })
+                .catch(error => {
+                    console.error('Error opening chat:', error);
+                    Swal.fire('Error', 'Failed to open chat. Please try again.', 'error');
+                });
+        }
+
+        function respond(event) {
+            event.preventDefault();
+            const responseMsgText = responseMsg.value;
+            if (responseMsgText && currentChatUserId) {
+                const msg = { userId: currentChatUserId, text: responseMsgText, timestamp: new Date().toISOString() };
+
+                socket.emit('responseMessage', msg, (error) => {
+                    if (error) {
+                        console.error('Error sending response:', error);
+                        Swal.fire('Error', 'Failed to send response. Please try again.', 'error');
+                    } else {
+                        addMessageToChat({ sender: 'Staff', ...msg });
+                        responseMsg.value = '';
+                        scrollToBottom();
+                    }
+                });
+            }
+        }
+
+        socket.on('newUserMessage', ({ userId, message }) => {
+            if (userId === currentChatUserId) {
+                addMessageToChat(message);
+                scrollToBottom();
+            }
+            loadChats(); // Reload chat list to update last message
+        });
+
+        socket.on('staffMessageSent', ({ userId, message }) => {
+            if (userId === currentChatUserId) {
+                addMessageToChat(message);
+                scrollToBottom();
+            }
+        });
+
+        socket.on('viewingCount', ({ userId, count }) => {
+            const viewingCountElement = document.getElementById(`viewing-count-${userId}`);
+            if (viewingCountElement) {
+                viewingCountElement.textContent = `Viewing: ${count}`;
+            }
+        });
+
+        function addMessageToChat(message) {
+            const messagesUl = document.getElementById('messages');
+            const li = document.createElement('li');
+            li.classList.add(message.sender === 'Staff' ? 'staff-message' : 'user-message');
+            li.innerHTML = `
+                <strong>${message.sender}:</strong> ${message.text}
+                <br>
+                <small>${new Date(message.timestamp).toLocaleTimeString()}</small>
+            `;
+            messagesUl.appendChild(li);
+        }
+
+        function scrollToBottom() {
+            const messagesUl = document.getElementById('messages');
+            messagesUl.scrollTop = messagesUl.scrollHeight;
+        }
+
+        document.getElementById('response-form').addEventListener('submit', respond);
+
+        loadChats();
+
+        // Periodically reload chats to check for new messages
+        setInterval(loadChats, 30000); // Reload every 30 seconds
+
+        responseMsg.addEventListener('input', () => {
+    if (currentChatUserId) {
+        socket.emit('sharedTextboxUpdate', { userId: currentChatUserId, text: responseMsg.value });
+    }
+});
+
+socket.on('sharedTextboxUpdate', ({ userId, text }) => {
+    if (userId === currentChatUserId) {
+        responseMsg.value = text;
+    }
+});
+
+        window.addEventListener('beforeunload', () => {
+            if (currentChatUserId) {
+                socket.emit('stopViewing', { userId: currentChatUserId });
+            }
+        });
+
+        window.addEventListener('blur', () => {
+            if (currentChatUserId) {
+                socket.emit('stopViewing', { userId: currentChatUserId });
+            }
+        });
+
+        window.addEventListener('focus', () => {
+            if (currentChatUserId) {
+                socket.emit('staffViewing', { userId: currentChatUserId });
+            }
+        });
+    </script>
+</body>
+</html>
