@@ -2,7 +2,9 @@ Path: c:\Users\Smirk\Documents\Programming\Chat\.gitignore
 Directory: c:\Users\Smirk\Documents\Programming\Chat
 Contents:
 node_modules/
-
+output.txt
+combined.log
+error.log
 
 Path: c:\Users\Smirk\Documents\Programming\Chat\app.js
 Directory: c:\Users\Smirk\Documents\Programming\Chat
@@ -98,7 +100,7 @@ app.post('/api/users/register', async (req, res) => {
         }
 
         const hashedPassword = await bcrypt.hash(password, 10);
-        const userId = users.length ? users[users.length - 1].id + 1 : 1;
+        const userId = users.length ? users[users.length - 1].id + 1 : 1; // Ensure userId increments correctly
         users.push({ id: userId, username, password: hashedPassword });
         writeUsers(users);
 
@@ -109,6 +111,7 @@ app.post('/api/users/register', async (req, res) => {
         res.status(500).json({ message: 'Internal server error' });
     }
 });
+
 
 app.post('/api/users/login', async (req, res) => {
     try {
@@ -333,55 +336,19 @@ Contents:
 [
   {
     "userId": 1,
-    "username": "manavmaj2001@gmail.com",
+    "username": "a",
     "messages": [
       {
-        "sender": "manavmaj2001@gmail.com",
-        "text": "hi",
-        "timestamp": "2024-07-23T03:04:17.921Z",
-        "read": true
-      },
-      {
-        "sender": "Staff",
-        "text": "yeah u better say hi",
-        "timestamp": "2024-07-23T03:04:27.605Z",
-        "read": false
-      },
-      {
-        "sender": "Staff",
-        "text": "what is happening",
-        "timestamp": "2024-07-23T03:04:46.801Z",
-        "read": false
-      },
-      {
-        "sender": "Staff",
-        "text": "lol",
-        "timestamp": "2024-07-23T03:04:49.123Z",
-        "read": false
-      },
-      {
-        "sender": "Staff",
-        "text": "this is funny",
-        "timestamp": "2024-07-23T03:08:55.748Z",
-        "read": false
-      },
-      {
         "sender": "a",
         "text": "hi",
-        "timestamp": "2024-07-23T03:27:28.853Z",
+        "timestamp": "2024-07-23T03:36:55.147Z",
         "read": true
       },
       {
         "sender": "a",
-        "text": "huh",
-        "timestamp": "2024-07-23T03:27:34.324Z",
-        "read": false
-      },
-      {
-        "sender": "a",
-        "text": "this is so weird",
-        "timestamp": "2024-07-23T03:27:39.545Z",
-        "read": false
+        "text": "hello",
+        "timestamp": "2024-07-23T03:37:59.230Z",
+        "read": true
       }
     ],
     "needsResponse": true
@@ -395,7 +362,7 @@ Contents:
   {
     "id": 1,
     "username": "a",
-    "password": "$2b$10$pD21GiDf/YAInHbsXJLPIO.P9aRlLWFVlqgaLWEjupRIufcn17P3i"
+    "password": "$2b$10$0h/6wWW5UfuVKY/osWWP7uNjZIW4OYI9Z1nKuRk31f3hngVsCFIzS"
   }
 ]
 
@@ -1087,11 +1054,13 @@ router.post('/register', async (req, res) => {
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
-    users.push({ username, password: hashedPassword });
+    const userId = users.length ? users[users.length - 1].id + 1 : 1; // Ensure userId increments correctly
+    users.push({ id: userId, username, password: hashedPassword });
     writeUsers(users);
 
     res.status(201).json({ message: 'User registered successfully' });
 });
+
 
 router.post('/login', async (req, res) => {
     const { username, password } = req.body;

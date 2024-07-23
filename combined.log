@@ -541,3 +541,47 @@
 {"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T03:27:30.224Z","userId":1}
 {"level":"info","message":"Chat message sent","timestamp":"2024-07-23T03:27:34.324Z","userId":1,"username":"a"}
 {"level":"info","message":"Chat message sent","timestamp":"2024-07-23T03:27:39.545Z","userId":1,"username":"a"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T03:36:38.342Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:36:38.424Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:36:38.426Z"}
+{"level":"info","message":"User registered","timestamp":"2024-07-23T03:36:50.698Z","userId":1,"username":"a"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T03:36:53.344Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:36:53.381Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T03:36:53.387Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T03:36:55.148Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:37:04.948Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:37:04.959Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:37:07.646Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:37:07.656Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:37:07.658Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T03:37:59.231Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T03:38:00.472Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:02.350Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:38:02.359Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:38:02.361Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:03.452Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:38:03.462Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:38:03.465Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:03.622Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:38:03.633Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:38:03.636Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:03.785Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:38:03.795Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:38:03.797Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:05.088Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:05.925Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:38:05.934Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:38:05.937Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:06.083Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:38:06.092Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:38:06.095Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:06.783Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:38:06.829Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:38:06.831Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:06.976Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:38:06.997Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:38:06.999Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:07.138Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:38:07.157Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:38:07.159Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:38:43.994Z"}

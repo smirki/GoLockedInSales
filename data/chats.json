@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "userId": 1,
+    "username": "a",
+    "messages": [
+      {
+        "sender": "a",
+        "text": "hi",
+        "timestamp": "2024-07-23T03:36:55.147Z",
+        "read": true
+      },
+      {
+        "sender": "a",
+        "text": "hello",
+        "timestamp": "2024-07-23T03:37:59.230Z",
+        "read": true
+      }
+    ],
+    "needsResponse": true
+  }
+]
