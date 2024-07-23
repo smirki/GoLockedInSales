@@ -1,12 +1,12 @@
 [
   {
     "id": 1,
+    "name": "a",
+    "nickname": "a",
+    "description": "what do i do",
+    "goals": "hii",
+    "email": "a",
     "username": "a",
-    "password": "$2b$10$0h/6wWW5UfuVKY/osWWP7uNjZIW4OYI9Z1nKuRk31f3hngVsCFIzS"
-  },
-  {
-    "id": 2,
-    "username": "b",
-    "password": "$2b$10$o9fyO4tKwtS/vo4WjI624uk5us9sd/3Q1GWeY3NAkEU09Ktq2owxC"
+    "password": "$2b$10$stSTnXhmvXNI5LVXvraOzui/MasMhlagQ/CoJc.FvVv8rLzqv7o5u"
   }
 ]

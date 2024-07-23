@@ -114,6 +114,18 @@
         width: 100%;
       }
     }
+    #user-details {
+      margin-bottom: 20px;
+      font-size: 0.9em;
+      color: var(--text-color);
+      opacity: 0.7;
+    }
+    #lock-message {
+      color: red;
+      font-size: 0.9em;
+      margin-top: 10px;
+      display: none;
+    }
   </style>
 </head>
 <body>
@@ -121,11 +133,13 @@
     <div class="chat-list" id="conversations"></div>
     <div class="chat-messages">
       <h3 id="chat-header">Select a chat</h3>
+      <div id="user-details"></div>
       <ul id="messages"></ul>
       <form id="response-form">
         <input id="response-msg" type="text" placeholder="Enter response..." autocomplete="off" required>
         <button type="submit"><i class="fas fa-paper-plane"></i></button>
       </form>
+      <p id="lock-message">This chat is currently locked by another staff member.</p>
     </div>
   </div>
 
@@ -135,6 +149,8 @@
     const socket = io();
     let currentChatUserId = null;
     let responseMsg = document.getElementById('response-msg');
+    let lockMessage = document.getElementById('lock-message');
+    let typingStaff = null;
 
     socket.emit('staffJoin');
 
@@ -182,12 +198,19 @@
       }
       currentChatUserId = userId;
       socket.emit('staffViewing', { userId });
-      fetch('/api/staff/dashboard')
+      fetch(`/api/staff/dashboard`)
         .then(response => response.json())
         .then(chats => {
           const chat = chats.find(c => c.userId === userId);
           if (chat) {
             document.getElementById('chat-header').innerText = `Chat with ${chat.username}`;
+            const userDetailsDiv = document.getElementById('user-details');
+            userDetailsDiv.innerHTML = `
+              <p><strong>Name:</strong> ${chat.name}</p>
+              <p><strong>Nickname:</strong> ${chat.nickname}</p>
+              <p><strong>Description:</strong> ${chat.description}</p>
+              <p><strong>Goals:</strong> ${chat.goals}</p>
+            `;
             const messagesUl = document.getElementById('messages');
             messagesUl.innerHTML = '';
             chat.messages.forEach(msg => {
@@ -203,23 +226,26 @@
     }
 
     function respond(event) {
-      event.preventDefault();
-      const responseMsgText = responseMsg.value;
-      if (responseMsgText && currentChatUserId) {
-        const msg = { userId: currentChatUserId, text: responseMsgText, timestamp: new Date().toISOString() };
+  event.preventDefault();
+  const responseMsgText = responseMsg.value;
+  if (responseMsgText && currentChatUserId) {
+    const msg = { userId: currentChatUserId, text: responseMsgText, timestamp: new Date().toISOString() };
 
-        socket.emit('responseMessage', msg, (error) => {
-          if (error) {
-            console.error('Error sending response:', error);
-            Swal.fire('Error', 'Failed to send response. Please try again.', 'error');
-          } else {
-            addMessageToChat({ sender: 'Staff', ...msg });
-            responseMsg.value = '';
-            scrollToBottom();
-          }
-        });
+    socket.emit('responseMessage', msg, (error) => {
+      if (error) {
+        console.error('Error sending response:', error);
+        Swal.fire('Error', 'Failed to send response. Please try again.', 'error');
+      } else {
+        addMessageToChat({ sender: 'Staff', ...msg });
+        responseMsg.value = ''; // Clear the input field after successful send
+        scrollToBottom();
       }
-    }
+    });
+    
+    // Clear the input field immediately, regardless of server response
+    responseMsg.value = '';
+  }
+}
 
     socket.on('newUserMessage', ({ userId, message }) => {
       if (userId === currentChatUserId) {
@@ -269,13 +295,21 @@
 
     responseMsg.addEventListener('input', () => {
       if (currentChatUserId) {
-        socket.emit('sharedTextboxUpdate', { userId: currentChatUserId, text: responseMsg.value });
+        typingStaff = 'currentStaffMember'; // Replace with actual staff member identifier
+        socket.emit('sharedTextboxUpdate', { userId: currentChatUserId, text: responseMsg.value, typingStaff });
       }
     });
 
-    socket.on('sharedTextboxUpdate', ({ userId, text }) => {
+    socket.on('sharedTextboxUpdate', ({ userId, text, typingStaff }) => {
       if (userId === currentChatUserId) {
         responseMsg.value = text;
+        if (typingStaff && typingStaff !== 'currentStaffMember') { // Replace with actual staff member identifier
+          responseMsg.disabled = true; // Disable input if another staff member is typing
+          lockMessage.style.display = 'block';
+        } else {
+          responseMsg.disabled = false; // Enable input if no one else is typing
+          lockMessage.style.display = 'none';
+        }
       }
     });
 

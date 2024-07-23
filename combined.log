@@ -1245,3 +1245,1205 @@
 {"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:50:05.420Z"}
 {"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:51:05.417Z"}
 {"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:51:05.418Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T13:55:08.111Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T13:55:09.041Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T13:55:09.425Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T13:55:09.429Z"}
+{"error":{"expiredAt":"2024-07-23T13:44:00.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:55:09.637Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T13:55:09.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:44:00.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:55:09.653Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T13:55:09.654Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T13:55:10.538Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T13:55:12.633Z"}
+{"error":{"expiredAt":"2024-07-23T13:44:00.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:55:12.643Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T13:55:12.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:44:00.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:55:12.649Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T13:55:12.651Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T13:55:15.354Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T13:55:18.034Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T13:55:18.062Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T13:55:18.066Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T13:55:18.179Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:55:26.363Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T13:55:28.412Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T13:55:28.424Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T13:55:35.039Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T13:55:35.791Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:55:56.361Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:56:05.419Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:56:26.353Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:56:56.349Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:57:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:57:24.006Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:57:26.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:57:54.014Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:57:56.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:58:24.008Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:58:54.019Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:58:57.415Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:59:24.007Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:59:54.018Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T13:59:58.422Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:00:24.004Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:00:54.003Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:00:59.419Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:01:24.014Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:01:54.010Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:02:00.422Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:02:24.007Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:02:54.008Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:03:01.419Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:03:24.006Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:03:54.016Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:04:02.412Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:04:24.014Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:04:54.008Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:05:03.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:05:24.022Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:05:54.008Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:06:04.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:06:24.011Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:06:54.018Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:07:05.428Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:07:24.011Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:07:54.015Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:08:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:08:24.011Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:08:54.017Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:09:05.432Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:09:24.011Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:09:54.005Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:10:05.428Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:10:24.017Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:10:54.015Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:11:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:11:24.007Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:11:54.014Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:12:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:12:24.009Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:12:54.006Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:13:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:13:24.015Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:13:54.007Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:14:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:14:24.008Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:14:54.011Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:15:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:15:24.016Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:15:54.010Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:16:05.414Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:16:24.010Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:16:54.006Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:17:05.429Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:17:24.014Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:17:54.012Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:18:05.415Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:18:24.018Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:18:54.015Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:19:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:19:24.014Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:19:54.008Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:20:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:20:24.019Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:20:54.013Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:21:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:21:24.006Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:21:54.018Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:22:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:22:24.014Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:22:54.010Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:23:05.417Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:23:24.005Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:23:54.005Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:24:05.421Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:24:24.016Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:24:54.006Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:25:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:25:24.014Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:25:54.417Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:26:05.419Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:26:24.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:27:05.414Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:27:05.416Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:28:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:28:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:29:05.429Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:29:05.431Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:30:05.432Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:30:05.434Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:31:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:31:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:32:05.414Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:32:05.416Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:33:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:33:05.427Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:34:05.416Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:34:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:35:05.421Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:35:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:36:05.416Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:36:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:37:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:37:05.430Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:38:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:38:05.422Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:39:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:39:05.432Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:40:05.422Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:40:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:41:05.432Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:41:05.434Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:42:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:42:05.421Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:43:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:43:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:44:05.428Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:44:05.429Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:45:05.416Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:45:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:46:05.413Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:46:05.415Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:47:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:47:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:48:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:48:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:49:05.416Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:49:05.419Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:50:05.427Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:50:05.430Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:51:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:51:05.429Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:52:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:52:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:53:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:53:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:54:05.419Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:54:05.421Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:55:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:55:05.428Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:56:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:56:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:57:05.428Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:57:05.430Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:58:05.432Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:58:05.434Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:59:05.416Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T14:59:05.419Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:00:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:00:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:01:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:01:05.431Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:02:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:02:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:03:05.421Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:03:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:04:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:04:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:05:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:05:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:06:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:06:05.422Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:07:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:07:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:08:05.421Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:08:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:09:05.414Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:09:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:10:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:10:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:11:05.416Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:11:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:12:05.416Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:12:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:13:05.431Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:13:05.433Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:14:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:14:05.428Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:15:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:15:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:16:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:16:05.422Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:17:05.415Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:17:05.417Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:18:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:18:05.425Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:19:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:19:05.428Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:20:05.424Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:20:05.426Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:21:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:21:05.423Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:22:05.419Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:22:05.422Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:23:05.431Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:23:05.433Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:24:05.418Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:24:05.420Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:25:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:25:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:26:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:26:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:27:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:27:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:28:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:28:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:29:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:29:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:30:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:30:06.655Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:31:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:31:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:32:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:32:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:33:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:33:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:34:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:34:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:35:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:35:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:36:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:36:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:37:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:37:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:38:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:38:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:39:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:39:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:40:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:40:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:41:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:41:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:42:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:42:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:43:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:43:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:44:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:44:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:45:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:45:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:46:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:46:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:47:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:47:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:48:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:48:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:49:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:49:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:50:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:50:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:51:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:51:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:52:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:52:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:53:06.655Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:53:06.658Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:54:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:54:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:55:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:55:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:56:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:56:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:57:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:57:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:58:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:58:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:59:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T15:59:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:00:06.636Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:00:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:01:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:01:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:02:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:02:06.655Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:03:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:03:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:04:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:04:06.656Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:05:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:05:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:06:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:06:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:07:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:07:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:08:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:08:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:09:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:09:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:10:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:10:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:11:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:11:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:12:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:12:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:13:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:13:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:14:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:14:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:15:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:15:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:16:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:16:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:17:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:17:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:18:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:18:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:19:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:19:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:20:06.637Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:20:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:21:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:21:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:22:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:22:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:23:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:23:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:24:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:24:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:25:06.655Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:25:06.657Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:26:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:26:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:27:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:27:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:28:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:28:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:29:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:29:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:30:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:30:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:31:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:31:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:32:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:32:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:33:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:33:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:34:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:34:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:35:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:35:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:36:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:36:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:37:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:37:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:38:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:38:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:39:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:39:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:40:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:40:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:41:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:41:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:42:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:42:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:43:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:43:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:44:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:44:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:45:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:45:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:46:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:46:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:47:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:47:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:48:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:48:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:49:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:49:06.656Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:50:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:50:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:51:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:51:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:52:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:52:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:53:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:53:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:54:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:54:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:55:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:55:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:56:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:56:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:57:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:57:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:58:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:58:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:59:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T16:59:06.655Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:00:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:00:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:01:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:01:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:02:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:02:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:03:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:03:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:04:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:04:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:05:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:05:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:06:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:06:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:07:06.656Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:07:06.658Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:08:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:08:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:09:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:09:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:10:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:10:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:11:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:11:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:12:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:12:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:13:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:13:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:14:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:14:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:15:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:15:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:16:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:16:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:17:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:17:06.657Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:18:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:18:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:19:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:19:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:20:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:20:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:21:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:21:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:22:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:22:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:23:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:23:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:24:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:24:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:25:06.636Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:25:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:26:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:26:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:27:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:27:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:28:06.657Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:28:06.659Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:29:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:29:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:30:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:30:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:31:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:31:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:32:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:32:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:33:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:33:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:34:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:34:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:35:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:35:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:36:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:36:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:37:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:37:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:38:06.637Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:38:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:39:06.657Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:39:06.659Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:40:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:40:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:41:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:41:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:42:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:42:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:43:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:43:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:44:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:44:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:45:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:45:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:46:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:46:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:47:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:47:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:48:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:48:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:49:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:49:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:50:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:50:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:51:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:51:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:52:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:52:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:53:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:53:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:54:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:54:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:55:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:55:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:56:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:56:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:57:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:57:06.644Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T17:57:21.924Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:58:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T17:59:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:00:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:01:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:02:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:03:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:04:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:05:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:06:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:07:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:08:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:08:25.243Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:08:31.394Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:08:55.228Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:09:25.238Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:09:55.227Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:10:25.229Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:10:55.237Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:11:25.237Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:11:55.232Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:12:25.234Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:12:49.250Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:12:49.256Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T18:12:49.311Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:12:55.240Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:13:19.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:13:25.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:13:49.635Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:13:55.235Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:14:19.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:14:25.238Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:14:49.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:14:55.238Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:15:19.636Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:15:25.228Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:15:55.230Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:16:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:16:25.239Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:16:55.238Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:17:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:17:25.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:17:55.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:18:06.637Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:18:56.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:19:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:19:43.228Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:19:55.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:20:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:20:25.649Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T18:20:47.970Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:20:48.012Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:20:48.018Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:20:48.130Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:20:51.850Z","userId":1,"username":"a"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:20:51.854Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:20:55.640Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:20:58.701Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:20:58.705Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:20:58.819Z","userId":1}
+{"level":"info","message":"User logged out","timestamp":"2024-07-23T18:21:02.350Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:21:02.371Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:21:06.641Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:21:07.949Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:21:07.964Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:21:07.968Z","userId":0,"username":null}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:21:16.246Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:21:16.256Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:21:16.259Z","userId":0,"username":null}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:21:20.021Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T18:21:23.583Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:21:23.609Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:21:23.611Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:21:23.714Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:21:25.639Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:21:28.887Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:21:28.943Z","userId":0,"username":null}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:21:34.750Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:22:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:22:06.652Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:22:25.044Z","userId":1,"username":"a"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:22:25.047Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T18:22:29.275Z","userId":2,"username":"b"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:22:29.343Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:22:29.347Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:22:29.368Z","userId":2}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:22:52.016Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T18:22:52.025Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:22:53.075Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:22:54.750Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:22:56.337Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:22:58.712Z","userId":2}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:23:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:23:06.647Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:23:52.571Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:23:52.892Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:23:53.287Z","userId":0}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:23:56.693Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:24:00.371Z","userId":2,"username":"b"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:24:00.375Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:24:05.053Z","userId":2,"username":"b"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:24:05.056Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:24:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:24:06.643Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:24:07.250Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:24:09.857Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:24:20.010Z","userId":2}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:25:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:25:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:26:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:26:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:27:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:27:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:28:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:28:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:29:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:29:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:30:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:30:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:31:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:31:06.651Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T18:33:52.310Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:33:52.455Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:33:52.458Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:33:52.464Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:33:52.465Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:33:52.513Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:33:52.664Z"}
+{"error":{"code":"ENOENT","errno":-4058,"path":"C:\\Users\\Smirk\\Documents\\Programming\\Chat\\data\\chats\\1.json","syscall":"open"},"level":"error","message":"Error reading chat file","timestamp":"2024-07-23T18:33:54.569Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T18:38:25.157Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:38:25.226Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:38:27.645Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:38:30.387Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T18:38:30.391Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:38:30.645Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:38:30.646Z"}
+{"level":"info","message":"User registered","timestamp":"2024-07-23T18:38:38.078Z","userId":1,"username":"a"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T18:38:40.109Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:38:40.159Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:38:40.168Z","userId":1,"username":"a"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T18:38:40.170Z","userId":1}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T18:38:40.274Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:38:40.274Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:38:42.720Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:38:47.397Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:38:55.975Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:39:00.000Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:39:05.453Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:39:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:39:06.664Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:39:35.411Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:39:41.032Z","userId":1,"username":"a"}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:39:45.031Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:40:03.604Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:40:03.711Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:40:03.717Z","userId":2,"username":"b"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T18:40:06.189Z","userId":2}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:40:06.190Z","userId":2,"username":"b"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:40:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:40:06.644Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:40:13.529Z"}
+{"level":"info","message":"User registered","timestamp":"2024-07-23T18:40:16.738Z","userId":2,"username":"b"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T18:40:18.885Z","userId":2,"username":"b"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:40:18.945Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:40:18.960Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:40:18.963Z","userId":2}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:40:21.395Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:40:22.801Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:40:23.162Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:40:23.617Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:40:23.884Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:40:24.739Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:40:27.261Z","userId":2,"username":"b"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:40:33.133Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:40:36.918Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:40:41.431Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:41:06.271Z","userId":2}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:41:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:41:06.643Z"}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:41:09.233Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:41:14.051Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:41:14.407Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:41:14.660Z","userId":2}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:42:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:42:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:42:25.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:42:55.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:43:06.638Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T18:46:29.019Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:29.041Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:29.267Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:32.291Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:46:33.163Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:33.183Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:46:33.186Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:33.301Z","userId":1}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:33.649Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:33.653Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:34.655Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:46:35.688Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:35.706Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T18:46:35.711Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:36.581Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:36.782Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:37.010Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:37.833Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:46:40.106Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:40.117Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T18:46:40.121Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:46:40.562Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:40.572Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T18:46:40.575Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:46:40.725Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:40.735Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T18:46:40.738Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:45.617Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:50.559Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:51.153Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:51.397Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:51.655Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:51.931Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:52.255Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:52.749Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:53.679Z","userId":2}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:46:58.613Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T18:46:58.621Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:46:59.535Z","userId":2}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:46:59.642Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:47:02.494Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:47:06.648Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:47:06.962Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:47:07.295Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:47:09.327Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:47:18.081Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:47:18.634Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:47:18.887Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:47:19.198Z","userId":2}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:47:22.038Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:47:22.950Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T18:47:44.276Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:47:44.647Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:47:46.461Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:47:46.646Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:47:46.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:48:00.639Z"}
+{"level":"info","message":"User registered","timestamp":"2024-07-23T18:48:01.823Z","userId":1,"username":"a"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T18:48:04.866Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:48:04.904Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T18:48:04.909Z","userId":1}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:48:04.912Z","userId":1,"username":"a"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T18:48:05.014Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:48:05.015Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:48:06.636Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:48:07.088Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:48:24.532Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T18:48:24.541Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:49:01.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:49:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:50:02.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:50:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:51:03.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:51:06.646Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T18:51:09.101Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T18:51:09.111Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T18:51:09.114Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:51:09.216Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T18:51:10.998Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T18:51:16.479Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:51:19.417Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T18:51:23.974Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:51:25.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:51:55.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:52:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:52:56.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:53:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:53:57.636Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:54:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:54:58.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:55:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:55:59.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:56:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:57:00.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:57:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:58:01.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:58:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:59:02.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T18:59:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:00:03.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:00:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:01:04.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:01:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:02:05.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:02:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:03:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:03:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:04:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:04:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:05:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:05:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:06:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:06:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:07:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:07:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:08:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:08:06.643Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T19:08:47.488Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:08:47.660Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:08:47.661Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:08:47.662Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:08:47.778Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:08:48.661Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:08:48.662Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:08:49.810Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:08:49.830Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:08:49.834Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:08:49.950Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:08:52.967Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:09:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:09:06.642Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:09:10.802Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:09:10.818Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:09:10.822Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:09:11.909Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:09:13.650Z","userId":1}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T19:09:32.797Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:09:32.830Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:09:32.836Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:09:32.944Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:09:34.940Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:09:40.736Z","userId":1,"username":"a"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:10:06.635Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:10:06.637Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:10:59.587Z","userId":1,"username":"a"}
+{"level":"info","message":"User logged out","timestamp":"2024-07-23T19:11:00.046Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:11:00.067Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:11:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:11:06.643Z"}
+{"level":"info","message":"User registered","timestamp":"2024-07-23T19:11:24.921Z","userId":2,"username":"b"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T19:11:28.278Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:11:28.318Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T19:11:28.320Z","userId":2}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:11:28.322Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:11:28.436Z","userId":1}
+{"level":"info","message":"User logged out","timestamp":"2024-07-23T19:11:32.080Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:11:32.103Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T19:11:33.770Z","userId":2,"username":"b"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:11:33.798Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T19:11:33.800Z","userId":2}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:11:33.803Z","userId":2,"username":"b"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T19:11:33.910Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:11:33.910Z","userId":2}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:11:39.162Z","userId":2,"username":"b"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:11:48.598Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:11:48.679Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:11:48.684Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:11:50.951Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:11:52.443Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:11:53.221Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:11:53.620Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:11:54.458Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:11:54.766Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:11:55.260Z","userId":2}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:11:58.490Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:12:01.028Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:12:01.441Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:12:01.784Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:12:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:12:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:13:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:13:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:14:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:14:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:15:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:15:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:16:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:16:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:17:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:17:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:18:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:18:06.655Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:19:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:19:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:20:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:20:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:21:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:21:06.645Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T19:21:08.804Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:21:08.902Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:21:08.903Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:21:09.256Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:21:09.645Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:21:09.646Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:21:09.647Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:21:11.751Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:21:11.773Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:21:11.777Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:21:12.638Z","userId":2}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:21:15.918Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:21:15.927Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:21:16.581Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:21:17.098Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T19:21:18.447Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:21:23.488Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:21:28.029Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:21:30.494Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T19:21:33.728Z","userId":1}
+{"level":"info","message":"User logged out","timestamp":"2024-07-23T19:21:38.258Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:21:38.277Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T19:21:40.714Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:21:40.749Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:21:40.758Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:21:40.861Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:21:43.143Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:21:45.538Z","userId":1,"username":"a"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:22:06.637Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:22:06.640Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:22:10.669Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T19:22:11.954Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T19:22:18.024Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:22:20.596Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:22:20.798Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:22:20.990Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:22:21.218Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:22:21.804Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:22:22.058Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:22:22.329Z","userId":2}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T19:30:11.243Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:30:11.352Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:30:11.418Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:30:11.421Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:30:12.644Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:30:14.641Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:30:14.644Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:30:14.645Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:30:14.985Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:30:16.167Z"}
+{"level":"info","message":"User registered","timestamp":"2024-07-23T19:30:31.202Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:30:32.288Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T19:30:32.291Z","userId":1}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:30:32.293Z","userId":1,"username":"a"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-23T19:30:32.402Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:30:32.402Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:30:40.687Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:30:42.662Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:30:42.673Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:30:42.676Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:30:42.782Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:30:43.131Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:30:45.385Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:30:48.012Z","userId":1,"username":"a"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:30:55.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:31:06.650Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:31:12.602Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:31:15.022Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T19:31:17.113Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:31:17.144Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:31:17.147Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:31:17.262Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:31:18.766Z","userId":1,"username":"a"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:31:25.652Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:31:32.444Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:31:32.448Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:31:33.352Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T19:31:36.847Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:32:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:32:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:33:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:33:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:34:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:34:06.640Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T19:34:52.048Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:34:52.227Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:34:52.641Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:34:52.648Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:34:52.652Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:34:53.652Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:34:53.653Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:34:54.282Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:34:54.294Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:34:54.298Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:34:54.408Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:34:58.599Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:34:58.610Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:34:58.612Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:34:59.793Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T19:35:06.074Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:35:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:35:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:35:25.642Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:35:42.300Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:35:42.818Z","userId":1}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:35:46.820Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:35:46.831Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:35:47.545Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:35:55.641Z"}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T19:35:55.730Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:35:59.027Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:36:00.884Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:36:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:36:56.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:37:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:37:57.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:38:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:38:58.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:39:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:39:59.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:40:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:41:00.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:41:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:41:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:42:01.643Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:42:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:42:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:43:02.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:43:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:43:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:43:29.673Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:43:48.630Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:43:59.719Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:44:00.400Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:44:00.549Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:44:00.713Z","userId":1,"username":"a"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:44:03.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:44:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:44:18.623Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:44:48.621Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:45:04.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:45:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:45:18.626Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:45:48.624Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:46:05.636Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:46:06.652Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:46:18.621Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:46:48.633Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:47:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:47:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:47:18.632Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:47:48.620Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:48:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:48:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:48:18.622Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:48:48.627Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:49:06.637Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:49:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:49:18.625Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:49:48.634Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:50:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:50:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:50:18.633Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:50:48.621Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:51:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:51:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:51:18.628Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:51:48.635Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:52:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:52:06.648Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:52:18.633Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:52:48.630Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:53:06.640Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:53:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:53:18.629Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:53:48.633Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:54:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:54:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:54:18.626Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:54:28.908Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:54:28.928Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:54:28.931Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:54:29.046Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:54:32.202Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:54:35.285Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:54:38.552Z","userId":1,"username":"a"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:54:48.635Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:55:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:55:06.654Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:55:18.625Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:55:34.620Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:55:34.677Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:55:34.739Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:55:34.749Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:55:37.520Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:55:37.551Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:55:37.568Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:55:37.576Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T19:55:52.908Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:55:52.961Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:55:52.962Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:55:52.963Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:55:52.966Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:55:53.049Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:55:57.972Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:55:58.002Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:55:58.011Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:55:58.017Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:56:02.745Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T19:56:05.647Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:56:05.690Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:56:05.693Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:56:05.796Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:56:06.639Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:56:06.641Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T19:56:08.457Z","userId":1,"username":"a"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:56:08.462Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:56:11.235Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:56:11.332Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:56:11.389Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:56:11.395Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:56:11.574Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:56:11.576Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:56:11.616Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:56:13.138Z"}
+{"error":{"expiredAt":"2024-07-23T19:40:18.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:56:13.169Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:56:13.180Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:56:13.188Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:56:22.765Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:56:55.771Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:56:55.784Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T19:56:55.789Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:56:55.899Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T19:56:56.332Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:57:06.647Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:57:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:58:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:58:06.653Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:58:51.519Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T19:58:54.273Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T19:58:54.282Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T19:58:55.294Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:58:55.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:59:06.643Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T19:59:25.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:00:06.650Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:00:06.652Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T20:00:23.238Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:00:23.249Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T20:00:23.252Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T20:00:32.107Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:00:32.125Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T20:00:32.128Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T20:00:32.357Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T20:00:37.091Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T20:00:39.150Z","userId":1}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T20:00:42.999Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:00:43.034Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:00:43.649Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:00:43.650Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:00:43.652Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:00:43.652Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T20:00:44.284Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:00:44.296Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T20:00:44.300Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T20:00:44.405Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T20:00:45.818Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:00:45.832Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T20:00:45.835Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T20:00:46.835Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T20:00:50.276Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T20:00:56.004Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T20:01:01.259Z","userId":1,"username":"a"}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-23T20:01:04.925Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:01:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:01:06.651Z"}

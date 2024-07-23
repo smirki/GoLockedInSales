@@ -21,7 +21,7 @@
       box-shadow: 0 2px 10px rgba(0,0,0,0.1);
       width: 300px;
     }
-    input, button {
+    input, button, textarea {
       width: 100%;
       padding: 10px;
       margin-bottom: 10px;
@@ -44,8 +44,13 @@
 <body>
   <form id="register-form">
     <h2>Register</h2>
+    <input type="text" id="name" placeholder="Name" required>
+    <input type="text" id="nickname" placeholder="Nickname" required>
+    <input type="text" id="email" placeholder="Email" required>
     <input type="text" id="username" placeholder="Username" required>
     <input type="password" id="password" placeholder="Password" required>
+    <textarea id="description" placeholder="Describe yourself" required></textarea>
+    <textarea id="goals" placeholder="Your goals" required></textarea>
     <button type="submit">Register</button>
     <p>Already have an account? <a href="/login.html">Login here</a></p>
   </form>
@@ -53,21 +58,26 @@
   <script>
     document.getElementById('register-form').addEventListener('submit', function(event) {
       event.preventDefault();
+      const name = document.getElementById('name').value;
+      const nickname = document.getElementById('nickname').value;
+      const email = document.getElementById('email').value;
       const username = document.getElementById('username').value;
       const password = document.getElementById('password').value;
+      const description = document.getElementById('description').value;
+      const goals = document.getElementById('goals').value;
 
       fetch('/api/users/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ username, password })
+        body: JSON.stringify({ name, nickname, email, username, password, description, goals })
       })
       .then(response => response.json())
       .then(data => {
         alert(data.message);
-        if (data.message === 'User registered successfully') {
-          window.location.href = '/login.html'; // Redirect to login page
+        if (data.message === 'User registered and logged in successfully') {
+          window.location.href = '/chat.html'; // Redirect to login page
         }
       });
     });

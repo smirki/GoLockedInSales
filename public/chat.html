@@ -156,7 +156,7 @@
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <script>
     const socket = io();
-
+  
     const userId = Number(localStorage.getItem('userId'));
     const username = localStorage.getItem('username');
     const welcomeMessage = document.getElementById('welcome-message');
@@ -164,21 +164,21 @@
     const chatForm = document.getElementById('chat-form');
     const msgInput = document.getElementById('msg-input');
     const logoutBtn = document.getElementById('logout-btn');
-
+  
     welcomeMessage.textContent = `Welcome, ${username}`;
-
+  
     socket.emit('joinChat', { userId, username });
-
+  
     socket.on('message', addMessageToChat);
-
+  
     socket.on('connect_error', (error) => {
       console.error('Connection error:', error);
       Swal.fire('Error', 'Failed to connect to the server. Please try again later.', 'error');
     });
-
+  
     chatForm.addEventListener('submit', sendMessage);
     logoutBtn.addEventListener('click', logout);
-
+  
     function sendMessage(e) {
       e.preventDefault();
       if (msgInput.value) {
@@ -194,28 +194,28 @@
             Swal.fire('Error', 'Failed to send message. Please try again.', 'error');
           } else {
             addMessageToChat(msg);
-            msgInput.value = ''; // Clear the input box
           }
         });
+        msgInput.value = ''; // Clear the input box immediately after sending
       }
     }
-
+  
     function addMessageToChat(message) {
       const messageElement = document.createElement('div');
       messageElement.classList.add('message');
       messageElement.classList.add(message.sender === username ? 'user-message' : 'staff-message');
-
+  
       const sender = message.sender === username ? 'You' : 'Staff';
       messageElement.innerHTML = `
         <strong>${sender}:</strong> ${message.text}
         <br>
         <small>${new Date(message.timestamp).toLocaleTimeString()}</small>
       `;
-
+  
       messagesDiv.appendChild(messageElement);
       messagesDiv.scrollTop = messagesDiv.scrollHeight;
     }
-
+  
     function logout() {
       fetch('/api/users/logout')
         .then(response => response.json())
@@ -230,7 +230,7 @@
           Swal.fire('Error', 'Failed to logout. Please try again.', 'error');
         });
     }
-
+  
     // Load chat history
     fetch('/api/users/me')
       .then(response => response.json())
