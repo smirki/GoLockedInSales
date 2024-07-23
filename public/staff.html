@@ -4,35 +4,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Staff Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <style>
+    :root {
+      --bg-color: #121212;
+      --text-color: #e0e0e0;
+      --primary-color: #BB86FC;
+      --secondary-color: #03DAC6;
+      --surface-color: #1e1e1e;
+    }
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+    }
     #dashboard-container {
       display: flex;
-      width: 100%;
       max-width: 1200px;
       margin: 0 auto;
       padding: 20px;
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      background-color: #f9f9f9;
     }
     .chat-list {
       width: 30%;
       padding: 10px;
-      border-right: 1px solid #ddd;
+      border-right: 1px solid var(--primary-color);
     }
     .chat {
       margin-bottom: 10px;
       padding: 10px;
-      border: 1px solid #ddd;
-      border-radius: 5px;
+      border: 1px solid var(--surface-color);
+      border-radius: 8px;
       cursor: pointer;
-      background-color: #fff;
+      background-color: var(--surface-color);
+      transition: background-color 0.3s;
     }
     .chat:hover {
-      background-color: #f0f0f0;
+      background-color: var(--primary-color);
+      color: var(--bg-color);
     }
     .chat.needs-response {
-      border-left: 5px solid red;
+      border-left: 5px solid var(--secondary-color);
     }
     .chat-messages {
       width: 70%;
@@ -41,30 +55,64 @@
     .chat-messages ul {
       list-style: none;
       padding: 0;
-      max-height: 400px;
-      overflow-y: scroll;
+      max-height: calc(100vh - 200px);
+      overflow-y: auto;
     }
     .chat-messages ul li {
       padding: 8px;
       margin-bottom: 10px;
-      border-radius: 5px;
+      border-radius: 8px;
     }
     .chat-messages ul .user-message {
-      background-color: #d4f1c5;
-      text-align: right;
+      background-color: var(--primary-color);
+      color: var(--bg-color);
+      margin-left: 20%;
     }
     .chat-messages ul .staff-message {
-      background-color: #f1d4d4;
-      text-align: left;
+      background-color: var(--surface-color);
+      margin-right: 20%;
     }
     .chat-messages ul .timestamp {
       display: block;
       font-size: 0.8em;
-      color: #999;
+      color: var(--text-color);
+      opacity: 0.7;
     }
     .viewing-count {
       font-size: 0.9em;
-      color: #888;
+      color: var(--text-color);
+      opacity: 0.7;
+    }
+    #response-form {
+      display: flex;
+      margin-top: 20px;
+    }
+    #response-msg {
+      flex-grow: 1;
+      padding: 10px;
+      border: none;
+      border-radius: 4px 0 0 4px;
+      background-color: var(--surface-color);
+      color: var(--text-color);
+    }
+    #response-form button {
+      padding: 10px 20px;
+      background-color: var(--secondary-color);
+      color: var(--bg-color);
+      border: none;
+      border-radius: 0 4px 4px 0;
+      cursor: pointer;
+    }
+    #response-form button:hover {
+      opacity: 0.9;
+    }
+    @media (max-width: 768px) {
+      #dashboard-container {
+        flex-direction: column;
+      }
+      .chat-list, .chat-messages {
+        width: 100%;
+      }
     }
   </style>
 </head>
@@ -76,7 +124,7 @@
       <ul id="messages"></ul>
       <form id="response-form">
         <input id="response-msg" type="text" placeholder="Enter response..." autocomplete="off" required>
-        <button type="submit">Send</button>
+        <button type="submit"><i class="fas fa-paper-plane"></i></button>
       </form>
     </div>
   </div>

@@ -14,8 +14,112 @@
         "text": "hello",
         "timestamp": "2024-07-23T03:37:59.230Z",
         "read": true
+      },
+      {
+        "sender": "a",
+        "text": "Hello",
+        "timestamp": "2024-07-23T12:17:08.889Z",
+        "read": true
+      },
+      {
+        "sender": "a",
+        "text": "What is going on",
+        "timestamp": "2024-07-23T12:17:13.981Z",
+        "read": true
+      },
+      {
+        "sender": "a",
+        "text": "hello",
+        "timestamp": "2024-07-23T12:23:42.935Z",
+        "read": true
+      },
+      {
+        "sender": "a",
+        "text": "hi",
+        "timestamp": "2024-07-23T12:23:50.823Z",
+        "read": true
+      },
+      {
+        "sender": "a",
+        "text": "what is going on",
+        "timestamp": "2024-07-23T12:23:59.774Z",
+        "read": true
+      },
+      {
+        "sender": "a",
+        "text": "this is a funny way of interacting",
+        "timestamp": "2024-07-23T12:24:10.100Z",
+        "read": true
+      },
+      {
+        "sender": "a",
+        "text": "hi",
+        "timestamp": "2024-07-23T12:44:04.911Z",
+        "read": true
       }
     ],
     "needsResponse": true
+  },
+  {
+    "userId": 0,
+    "username": null,
+    "messages": [
+      {
+        "sender": null,
+        "text": "hi",
+        "timestamp": "2024-07-23T12:24:18.817Z",
+        "read": true
+      },
+      {
+        "sender": null,
+        "text": "what is going on",
+        "timestamp": "2024-07-23T12:24:23.694Z",
+        "read": true
+      },
+      {
+        "sender": null,
+        "text": "what is this",
+        "timestamp": "2024-07-23T12:24:29.179Z",
+        "read": true
+      }
+    ],
+    "needsResponse": true
+  },
+  {
+    "userId": 2,
+    "username": "b",
+    "messages": [
+      {
+        "sender": "b",
+        "text": "hiiii",
+        "timestamp": "2024-07-23T12:24:46.734Z",
+        "read": true
+      },
+      {
+        "sender": "b",
+        "text": "what is going on",
+        "timestamp": "2024-07-23T12:24:50.610Z",
+        "read": true
+      },
+      {
+        "sender": "Staff",
+        "text": "okay",
+        "timestamp": "2024-07-23T12:25:20.703Z",
+        "read": false
+      },
+      {
+        "sender": "Staff",
+        "text": "okayu gotta work on yourself",
+        "timestamp": "2024-07-23T12:25:24.113Z",
+        "read": false
+      },
+      {
+        "sender": "Staff",
+        "text": "theres no way to do things better than what you are doing rn",
+        "timestamp": "2024-07-23T12:25:36.238Z",
+        "read": false
+      }
+    ],
+    "needsResponse": false
   }
 ]
