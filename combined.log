@@ -2492,3 +2492,17 @@
 {"level":"info","message":"User joined chat","timestamp":"2024-07-23T20:04:15.405Z","userId":1,"username":"a"}
 {"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T20:04:15.516Z","userId":1}
 {"level":"info","message":"Staff response sent","timestamp":"2024-07-23T20:04:24.530Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:05:06.649Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:05:06.651Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:06:06.646Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:06:06.648Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-23T20:06:36.735Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T20:06:36.752Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T20:06:36.755Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T20:06:37.564Z","userId":1}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:07:06.642Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:07:06.644Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:08:06.638Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:08:06.641Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:09:06.645Z"}
+{"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-23T20:09:06.647Z"}
