@@ -89,7 +89,7 @@ app.post('/api/users/register', async (req, res) => {
         }
 
         const hashedPassword = await bcrypt.hash(password, 10);
-        const userId = users.length ? users[users.length - 1].id + 1 : 1;
+        const userId = users.length ? users[users.length - 1].id + 1 : 1; // Ensure userId increments correctly
         users.push({ id: userId, username, password: hashedPassword });
         writeUsers(users);
 
@@ -100,6 +100,7 @@ app.post('/api/users/register', async (req, res) => {
         res.status(500).json({ message: 'Internal server error' });
     }
 });
+
 
 app.post('/api/users/login', async (req, res) => {
     try {

@@ -1,3 +1,9 @@
+Path: c:\Users\Smirk\Documents\Programming\Chat\.gitignore
+Directory: c:\Users\Smirk\Documents\Programming\Chat
+Contents:
+node_modules/
+
+
 Path: c:\Users\Smirk\Documents\Programming\Chat\app.js
 Directory: c:\Users\Smirk\Documents\Programming\Chat
 Contents:
@@ -156,6 +162,7 @@ app.get('/api/staff/dashboard', verifyToken, (req, res) => {
     res.json(chats);
 });
 
+
 // Socket.io chat handling
 io.on('connection', socket => {
     logger.info('New WebSocket connection');
@@ -254,8 +261,9 @@ io.on('connection', socket => {
     });
 
     socket.on('sharedTextboxUpdate', ({ userId, text }) => {
-        io.to(userId.toString()).emit('sharedTextboxUpdate', { text });
+        io.to('staff').emit('sharedTextboxUpdate', { userId, text });
     });
+    
 
     socket.on('disconnect', () => {
         logger.info('User disconnected');
@@ -264,7 +272,7 @@ io.on('connection', socket => {
     });
 });
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3009;
 server.listen(PORT, () => {
     logger.info(`Server running on port ${PORT}`);
 });
@@ -322,12 +330,74 @@ if __name__ == "__main__":
 Path: c:\Users\Smirk\Documents\Programming\Chat\data\chats.json
 Directory: c:\Users\Smirk\Documents\Programming\Chat\data
 Contents:
-[]
+[
+  {
+    "userId": 1,
+    "username": "manavmaj2001@gmail.com",
+    "messages": [
+      {
+        "sender": "manavmaj2001@gmail.com",
+        "text": "hi",
+        "timestamp": "2024-07-23T03:04:17.921Z",
+        "read": true
+      },
+      {
+        "sender": "Staff",
+        "text": "yeah u better say hi",
+        "timestamp": "2024-07-23T03:04:27.605Z",
+        "read": false
+      },
+      {
+        "sender": "Staff",
+        "text": "what is happening",
+        "timestamp": "2024-07-23T03:04:46.801Z",
+        "read": false
+      },
+      {
+        "sender": "Staff",
+        "text": "lol",
+        "timestamp": "2024-07-23T03:04:49.123Z",
+        "read": false
+      },
+      {
+        "sender": "Staff",
+        "text": "this is funny",
+        "timestamp": "2024-07-23T03:08:55.748Z",
+        "read": false
+      },
+      {
+        "sender": "a",
+        "text": "hi",
+        "timestamp": "2024-07-23T03:27:28.853Z",
+        "read": true
+      },
+      {
+        "sender": "a",
+        "text": "huh",
+        "timestamp": "2024-07-23T03:27:34.324Z",
+        "read": false
+      },
+      {
+        "sender": "a",
+        "text": "this is so weird",
+        "timestamp": "2024-07-23T03:27:39.545Z",
+        "read": false
+      }
+    ],
+    "needsResponse": true
+  }
+]
 
 Path: c:\Users\Smirk\Documents\Programming\Chat\data\users.json
 Directory: c:\Users\Smirk\Documents\Programming\Chat\data
 Contents:
-[]
+[
+  {
+    "id": 1,
+    "username": "a",
+    "password": "$2b$10$pD21GiDf/YAInHbsXJLPIO.P9aRlLWFVlqgaLWEjupRIufcn17P3i"
+  }
+]
 
 Path: c:\Users\Smirk\Documents\Programming\Chat\public\chat.html
 Directory: c:\Users\Smirk\Documents\Programming\Chat\public
@@ -377,11 +447,13 @@ Contents:
             display: flex;
         }
         #msg-input {
-            flex-grow: 1;
-            padding: 10px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    max-width: calc(100% - 120px);
+}
+
         button {
             padding: 10px 20px;
             background-color: #4CAF50;
@@ -444,25 +516,26 @@ Contents:
         logoutBtn.addEventListener('click', logout);
 
         function sendMessage(e) {
-            e.preventDefault();
-            if (msgInput.value) {
-                const msg = {
-                    userId: userId,
-                    username: username,
-                    text: msgInput.value,
-                    timestamp: new Date().toISOString()
-                };
-                socket.emit('chatMessage', msg, (error) => {
-                    if (error) {
-                        console.error('Error sending message:', error);
-                        Swal.fire('Error', 'Failed to send message. Please try again.', 'error');
-                    } else {
-                        addMessageToChat(msg);
-                        msgInput.value = '';
-                    }
-                });
+    e.preventDefault();
+    if (msgInput.value) {
+        const msg = {
+            userId: userId,
+            username: username,
+            text: msgInput.value,
+            timestamp: new Date().toISOString()
+        };
+        socket.emit('chatMessage', msg, (error) => {
+            if (error) {
+                console.error('Error sending message:', error);
+                Swal.fire('Error', 'Failed to send message. Please try again.', 'error');
+            } else {
+                addMessageToChat(msg);
+                msgInput.value = ''; // Clear the input box
             }
-        }
+        });
+    }
+}
+
 
         function addMessageToChat(message) {
             const messageElement = document.createElement('div');
@@ -784,38 +857,38 @@ Contents:
         });
 
         function loadChats() {
-            fetch('/api/staff/dashboard')
-                .then(response => response.json())
-                .then(chats => {
-                    const conversationsDiv = document.getElementById('conversations');
-                    conversationsDiv.innerHTML = '';
-                    chats.sort((a, b) => new Date(b.messages[b.messages.length - 1].timestamp) - new Date(a.messages[a.messages.length - 1].timestamp));
-                    chats.forEach(chat => {
-                        const chatDiv = document.createElement('div');
-                        chatDiv.classList.add('chat');
-                        if (chat.needsResponse) {
-                            chatDiv.classList.add('needs-response');
-                        }
-                        chatDiv.dataset.userId = chat.userId;
-                        chatDiv.innerHTML = `
-                            <h4>${chat.username}</h4>
-                            <p>Messages: ${chat.messages.length}</p>
-                            <p>Last Message: ${new Date(chat.messages[chat.messages.length - 1].timestamp).toLocaleTimeString()}</p>
-                            <p class="viewing-count" id="viewing-count-${chat.userId}">Viewing: 0</p>
-                        `;
-                        chatDiv.addEventListener('click', () => {
-                            openChat(chat.userId);
-                            // Mark the chat as read
-                            socket.emit('markAsRead', chat.userId);
-                        });
-                        conversationsDiv.appendChild(chatDiv);
-                    });
-                })
-                .catch(error => {
-                    console.error('Error loading chats:', error);
-                    Swal.fire('Error', 'Failed to load chats. Please refresh the page.', 'error');
+    fetch('/api/staff/dashboard')
+        .then(response => response.json())
+        .then(chats => {
+            const conversationsDiv = document.getElementById('conversations');
+            conversationsDiv.innerHTML = '';
+            chats.sort((a, b) => new Date(b.messages[b.messages.length - 1].timestamp) - new Date(a.messages[a.messages.length - 1].timestamp));
+            chats.forEach(chat => {
+                const chatDiv = document.createElement('div');
+                chatDiv.classList.add('chat');
+                if (chat.needsResponse) {
+                    chatDiv.classList.add('needs-response');
+                }
+                chatDiv.dataset.userId = chat.userId;
+                chatDiv.innerHTML = `
+                    <h4>${chat.username}</h4>
+                    <p>Messages: ${chat.messages.length}</p>
+                    <p>Last Message: ${new Date(chat.messages[chat.messages.length - 1].timestamp).toLocaleTimeString()}</p>
+                    <p class="viewing-count" id="viewing-count-${chat.userId}">Viewing: 0</p>
+                `;
+                chatDiv.addEventListener('click', () => {
+                    openChat(chat.userId);
+                    socket.emit('markAsRead', chat.userId);
                 });
-        }
+                conversationsDiv.appendChild(chatDiv);
+            });
+        })
+        .catch(error => {
+            console.error('Error loading chats:', error);
+            Swal.fire('Error', 'Failed to load chats. Please refresh the page.', 'error');
+        });
+}
+
 
         function openChat(userId) {
             if (currentChatUserId) {
@@ -909,14 +982,16 @@ Contents:
         setInterval(loadChats, 30000); // Reload every 30 seconds
 
         responseMsg.addEventListener('input', () => {
-            if (currentChatUserId) {
-                socket.emit('sharedTextboxUpdate', { userId: currentChatUserId, text: responseMsg.value });
-            }
-        });
+    if (currentChatUserId) {
+        socket.emit('sharedTextboxUpdate', { userId: currentChatUserId, text: responseMsg.value });
+    }
+});
 
-        socket.on('sharedTextboxUpdate', ({ text }) => {
-            responseMsg.value = text;
-        });
+socket.on('sharedTextboxUpdate', ({ userId, text }) => {
+    if (userId === currentChatUserId) {
+        responseMsg.value = text;
+    }
+});
 
         window.addEventListener('beforeunload', () => {
             if (currentChatUserId) {

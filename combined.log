@@ -529,3 +529,15 @@
 {"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T03:08:57.213Z","userId":1}
 {"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:09:01.050Z"}
 {"level":"info","message":"User disconnected","timestamp":"2024-07-23T03:09:02.290Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-23T03:21:28.317Z"}
+{"level":"info","message":"User registered","timestamp":"2024-07-23T03:27:07.331Z","userId":1,"username":"a"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-23T03:27:11.114Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:27:11.205Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-23T03:27:11.217Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T03:27:11.229Z","userId":1}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-23T03:27:24.013Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-23T03:27:24.069Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T03:27:28.854Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-23T03:27:30.224Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T03:27:34.324Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-23T03:27:39.545Z","userId":1,"username":"a"}

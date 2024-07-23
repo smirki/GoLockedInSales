@@ -26,11 +26,13 @@ router.post('/register', async (req, res) => {
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
-    users.push({ username, password: hashedPassword });
+    const userId = users.length ? users[users.length - 1].id + 1 : 1; // Ensure userId increments correctly
+    users.push({ id: userId, username, password: hashedPassword });
     writeUsers(users);
 
     res.status(201).json({ message: 'User registered successfully' });
 });
+
 
 router.post('/login', async (req, res) => {
     const { username, password } = req.body;
