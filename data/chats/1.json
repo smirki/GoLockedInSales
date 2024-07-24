@@ -1,0 +1,38 @@
+{
+  "userId": 1,
+  "username": "a",
+  "messages": [
+    {
+      "sender": "Staff",
+      "text": "hey! welcome to the site. Send a message to get started with your goals!",
+      "timestamp": "2024-07-23T22:50:01.444Z",
+      "read": false
+    },
+    {
+      "sender": "a",
+      "text": "hii!",
+      "timestamp": "2024-07-23T22:50:12.937Z",
+      "read": true
+    },
+    {
+      "sender": "a",
+      "text": "hi",
+      "timestamp": "2024-07-23T22:53:14.514Z",
+      "read": true
+    },
+    {
+      "sender": "Staff",
+      "text": "whats up",
+      "timestamp": "2024-07-23T22:53:20.465Z",
+      "read": false
+    },
+    {
+      "sender": "Staff",
+      "text": "hi",
+      "timestamp": "2024-07-23T22:54:48.436Z",
+      "read": false
+    }
+  ],
+  "lockedBy": null,
+  "needsResponse": false
+}

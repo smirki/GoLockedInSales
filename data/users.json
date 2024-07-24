@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "a",
+    "nickname": "a",
+    "description": "a",
+    "goals": "a",
+    "email": "a",
+    "username": "a",
+    "password": "$2b$10$9SLi24Z1hq4kmTwa3XcwguhWxmyGglt6/MiP2PAYPD4o/lFCsd.v2"
+  }
+]

@@ -72,21 +72,20 @@ const writeUsers = (users) => {
 };
 
 const readChat = (userId) => {
-    try {
-      const chatData = fs.readFileSync(getUserChatFilePath(userId));
-      return JSON.parse(chatData);
-    } catch (error) {
-      if (error.code === 'ENOENT') {
-        const users = readUsers();
-        const user = users.find(user => user.id === userId);
-        logger.warn('Chat file not found, creating a new one', { userId });
-        return { userId, username: user.nickname, messages: [], lockedBy: null };
-      }
-      logger.error('Error reading chat file', { error });
-      return { userId, username: `User${userId}`, messages: [], lockedBy: null };
+  try {
+    const chatData = fs.readFileSync(getUserChatFilePath(userId));
+    return JSON.parse(chatData);
+  } catch (error) {
+    if (error.code === 'ENOENT') {
+      const users = readUsers();
+      const user = users.find(user => user.id === userId);
+      logger.warn('Chat file not found, creating a new one', { userId });
+      return { userId, username: user.nickname, messages: [], lockedBy: null };
     }
-  };
-  
+    logger.error('Error reading chat file', { error });
+    return { userId, username: `User${userId}`, messages: [], lockedBy: null };
+  }
+};
 
 const writeChat = (chat) => {
   try {
@@ -100,31 +99,46 @@ let chatLocks = {}; // Track chat locks
 
 // User routes
 app.post('/api/users/register', async (req, res) => {
-    try {
-      const { name, nickname, description, goals, email, username, password } = req.body;
-      const users = readUsers();
-      const userExists = users.find(user => user.username === username);
-  
-      if (userExists) {
-        return res.status(400).json({ message: 'User already exists' });
-      }
-  
-      const hashedPassword = await bcrypt.hash(password, 10);
-      const userId = users.length ? users[users.length - 1].id + 1 : 1;
-      users.push({ id: userId, name, nickname, description, goals, email, username, password: hashedPassword });
-      writeUsers(users);
-  
-      logger.info('User registered', { userId, username });
-  
-      const token = jwt.sign({ id: userId, username }, 'secret', { expiresIn: '1h' });
-      res.cookie('token', token, { httpOnly: true });
-      res.status(201).json({ message: 'User registered and logged in successfully', userId, username });
-    } catch (error) {
-      logger.error('Error in user registration', { error });
-      res.status(500).json({ message: 'Internal server error' });
+  try {
+    const { name, nickname, description, goals, email, username, password } = req.body;
+    const users = readUsers();
+    const userExists = users.find(user => user.username === username);
+
+    if (userExists) {
+      return res.status(400).json({ message: 'User already exists' });
     }
-  });
-  
+
+    const hashedPassword = await bcrypt.hash(password, 10);
+    const userId = users.length ? users[users.length - 1].id + 1 : 1;
+    users.push({ id: userId, name, nickname, description, goals, email, username, password: hashedPassword });
+    writeUsers(users);
+
+    // Create default chat file with welcome message
+    const defaultChat = {
+      userId,
+      username: nickname,
+      messages: [
+        {
+          sender: 'Staff',
+          text: "hey! welcome to the site. Send a message to get started with your goals!",
+          timestamp: new Date().toISOString(),
+          read: false
+        }
+      ],
+      lockedBy: null
+    };
+    writeChat(defaultChat);
+
+    logger.info('User registered', { userId, username });
+
+    const token = jwt.sign({ id: userId, username }, 'secret', { expiresIn: '1h' });
+    res.cookie('token', token, { httpOnly: true });
+    res.status(201).json({ message: 'User registered and logged in successfully', userId, username });
+  } catch (error) {
+    logger.error('Error in user registration', { error });
+    res.status(500).json({ message: 'Internal server error' });
+  }
+});
 
 app.post('/api/users/login', async (req, res) => {
   try {
@@ -181,109 +195,109 @@ app.get('/api/staff/dashboard', verifyToken, (req, res) => {
 
 // Socket.io chat handling
 io.on('connection', socket => {
-    logger.info('New WebSocket connection');
-  
-    socket.on('joinChat', ({ userId, username }) => {
-      socket.join(userId.toString());
-      logger.info('User joined chat', { userId, username });
-    });
-  
-    socket.on('chatMessage', msg => {
-      try {
-        const { userId, username, text } = msg;
-        let chat = readChat(userId);
-  
-        if (!chat.username) chat.username = username; // Set the username if not present
-  
-        const newMessage = { sender: username, text, timestamp: new Date().toISOString(), read: false };
-        chat.messages.push(newMessage);
-        chat.needsResponse = true; // Mark chat as needing response
+  logger.info('New WebSocket connection');
+
+  socket.on('joinChat', ({ userId, username }) => {
+    socket.join(userId.toString());
+    logger.info('User joined chat', { userId, username });
+  });
+
+  socket.on('chatMessage', msg => {
+    try {
+      const { userId, username, text } = msg;
+      let chat = readChat(userId);
+
+      if (!chat.username) chat.username = username; // Set the username if not present
+
+      const newMessage = { sender: username, text, timestamp: new Date().toISOString(), read: false };
+      chat.messages.push(newMessage);
+      chat.needsResponse = true; // Mark chat as needing response
+      writeChat(chat);
+
+      io.to(userId.toString()).emit('message', newMessage);
+      io.to('staff').emit('newUserMessage', { userId, message: newMessage });
+      logger.info('Chat message sent', { userId, username });
+    } catch (error) {
+      logger.error('Error processing chat message', { error });
+    }
+  });
+
+  socket.on('responseMessage', msg => {
+    try {
+      const { userId, text, staffUsername } = msg;
+      if (chatLocks[userId] && chatLocks[userId] !== socket.id) {
+        socket.emit('lockError', { message: 'This chat is locked by another staff member.' });
+        return;
+      }
+      chatLocks[userId] = socket.id;
+
+      let chat = readChat(userId);
+      const newMessage = { sender: 'Staff', text, timestamp: new Date().toISOString(), read: false };
+      chat.messages.push(newMessage);
+      chat.needsResponse = false; // Mark chat as responded to
+      writeChat(chat);
+
+      io.to(userId.toString()).emit('message', newMessage);
+      io.to('staff').emit('staffMessageSent', { userId, message: newMessage });
+      logger.info('Staff response sent', { userId });
+    } catch (error) {
+      logger.error('Error processing staff response', { error });
+    }
+  });
+
+  socket.on('staffJoin', () => {
+    socket.join('staff');
+    logger.info('Staff joined chat');
+  });
+
+  socket.on('markAsRead', userId => {
+    try {
+      let chat = readChat(userId);
+
+      if (chat) {
+        chat.messages.forEach(message => {
+          if (message.sender !== 'Staff') {
+            message.read = true;
+          }
+        });
         writeChat(chat);
-  
-        io.to(userId.toString()).emit('message', newMessage);
-        io.to('staff').emit('newUserMessage', { userId, message: newMessage });
-        logger.info('Chat message sent', { userId, username });
-      } catch (error) {
-        logger.error('Error processing chat message', { error });
+        logger.info('Messages marked as read', { userId });
+      } else {
+        logger.warn('Chat not found for marking as read', { userId });
       }
-    });
-  
-    socket.on('responseMessage', msg => {
-      try {
-        const { userId, text, staffUsername } = msg;
-        if (chatLocks[userId] && chatLocks[userId] !== socket.id) {
-          socket.emit('lockError', { message: 'This chat is locked by another staff member.' });
-          return;
-        }
-        chatLocks[userId] = socket.id;
-  
-        let chat = readChat(userId);
-        const newMessage = { sender: 'Staff', text, timestamp: new Date().toISOString(), read: false };
-        chat.messages.push(newMessage);
-        chat.needsResponse = false; // Mark chat as responded to
-        writeChat(chat);
-  
-        io.to(userId.toString()).emit('message', newMessage);
-        io.to('staff').emit('staffMessageSent', { userId, message: newMessage });
-        logger.info('Staff response sent', { userId });
-      } catch (error) {
-        logger.error('Error processing staff response', { error });
+    } catch (error) {
+      logger.error('Error marking messages as read', { error });
+    }
+  });
+
+  socket.on('staffViewing', ({ userId }) => {
+    socket.join(`viewing_${userId}`);
+    const room = io.sockets.adapter.rooms.get(`viewing_${userId}`);
+    const size = room ? room.size : 0;
+    io.to('staff').emit('viewingCount', { userId, count: size });
+  });
+
+  socket.on('stopViewing', ({ userId }) => {
+    socket.leave(`viewing_${userId}`);
+    const room = io.sockets.adapter.rooms.get(`viewing_${userId}`);
+    const size = room ? room.size : 0;
+    io.to('staff').emit('viewingCount', { userId, count: size });
+  });
+
+  socket.on('sharedTextboxUpdate', ({ userId, text, typingStaff }) => {
+    io.to(`viewing_${userId}`).emit('sharedTextboxUpdate', { userId, text, typingStaff });
+  });
+
+  socket.on('disconnect', () => {
+    logger.info('User disconnected');
+    // Remove locks held by the disconnected staff member
+    Object.keys(chatLocks).forEach(userId => {
+      if (chatLocks[userId] === socket.id) {
+        delete chatLocks[userId];
       }
-    });
-  
-    socket.on('staffJoin', () => {
-      socket.join('staff');
-      logger.info('Staff joined chat');
-    });
-  
-    socket.on('markAsRead', userId => {
-      try {
-        let chat = readChat(userId);
-  
-        if (chat) {
-          chat.messages.forEach(message => {
-            if (message.sender !== 'Staff') {
-              message.read = true;
-            }
-          });
-          writeChat(chat);
-          logger.info('Messages marked as read', { userId });
-        } else {
-          logger.warn('Chat not found for marking as read', { userId });
-        }
-      } catch (error) {
-        logger.error('Error marking messages as read', { error });
-      }
-    });
-  
-    socket.on('staffViewing', ({ userId }) => {
-      socket.join(`viewing_${userId}`);
-      const room = io.sockets.adapter.rooms.get(`viewing_${userId}`);
-      const size = room ? room.size : 0;
-      io.to('staff').emit('viewingCount', { userId, count: size });
-    });
-  
-    socket.on('stopViewing', ({ userId }) => {
-      socket.leave(`viewing_${userId}`);
-      const room = io.sockets.adapter.rooms.get(`viewing_${userId}`);
-      const size = room ? room.size : 0;
-      io.to('staff').emit('viewingCount', { userId, count: size });
-    });
-  
-    socket.on('sharedTextboxUpdate', ({ userId, text, typingStaff }) => {
-      io.to(`viewing_${userId}`).emit('sharedTextboxUpdate', { userId, text, typingStaff });
-    });
-  
-    socket.on('disconnect', () => {
-      logger.info('User disconnected');
-      // Remove locks held by the disconnected staff member
-      Object.keys(chatLocks).forEach(userId => {
-        if (chatLocks[userId] === socket.id) {
-          delete chatLocks[userId];
-        }
-      });
     });
   });
+});
 
 const PORT = process.env.PORT || 3009;
 server.listen(PORT, () => {

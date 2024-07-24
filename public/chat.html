@@ -45,6 +45,7 @@
       margin-bottom: 20px;
       background-color: var(--surface-color);
       box-sizing: border-box;
+      will-change: contents;
     }
     .message {
       margin-bottom: 10px;
@@ -164,6 +165,7 @@
     const chatForm = document.getElementById('chat-form');
     const msgInput = document.getElementById('msg-input');
     const logoutBtn = document.getElementById('logout-btn');
+    const sendButton = document.querySelector('#chat-form button[type="submit"]');
   
     welcomeMessage.textContent = `Welcome, ${username}`;
   
@@ -177,7 +179,20 @@
     });
   
     chatForm.addEventListener('submit', sendMessage);
+    sendButton.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      sendMessage(e);
+    });
     logoutBtn.addEventListener('click', logout);
+  
+    socket.on('disconnect', () => {
+      console.log('Disconnected from server');
+      socket.connect();
+    });
+
+    socket.on('connect', () => {
+      console.log('Connected to server');
+    });
   
     function sendMessage(e) {
       e.preventDefault();
@@ -200,20 +215,32 @@
       }
     }
   
+    let scrollTimeout;
     function addMessageToChat(message) {
-      const messageElement = document.createElement('div');
-      messageElement.classList.add('message');
-      messageElement.classList.add(message.sender === username ? 'user-message' : 'staff-message');
-  
-      const sender = message.sender === username ? 'You' : 'Staff';
-      messageElement.innerHTML = `
-        <strong>${sender}:</strong> ${message.text}
-        <br>
-        <small>${new Date(message.timestamp).toLocaleTimeString()}</small>
-      `;
-  
-      messagesDiv.appendChild(messageElement);
-      messagesDiv.scrollTop = messagesDiv.scrollHeight;
+      requestAnimationFrame(() => {
+        const messageElement = document.createElement('div');
+        messageElement.classList.add('message');
+        messageElement.classList.add(message.sender === username ? 'user-message' : 'staff-message');
+    
+        const sender = message.sender === username ? 'You' : 'Staff';
+        messageElement.innerHTML = `
+          <strong>${sender}:</strong> ${message.text}
+          <br>
+          <small>${new Date(message.timestamp).toLocaleTimeString()}</small>
+        `;
+    
+        messagesDiv.appendChild(messageElement);
+        
+        clearTimeout(scrollTimeout);
+        scrollTimeout = setTimeout(() => {
+          messagesDiv.scrollTop = messagesDiv.scrollHeight;
+        }, 50);
+
+        // Force a repaint
+        messagesDiv.style.display = 'none';
+        messagesDiv.offsetHeight;
+        messagesDiv.style.display = '';
+      });
     }
   
     function logout() {

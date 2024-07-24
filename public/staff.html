@@ -140,6 +140,7 @@
         <button type="submit"><i class="fas fa-paper-plane"></i></button>
       </form>
       <p id="lock-message">This chat is currently locked by another staff member.</p>
+      <button class="generate-response-btn" data-user-id="${chat.userId}" title="Generate response"><i class="fas fa-magic"></i></button>
     </div>
   </div>
 
@@ -158,6 +159,29 @@
       console.error('Connection error:', error);
       Swal.fire('Error', 'Failed to connect to the server. Please try again later.', 'error');
     });
+
+    document.addEventListener('DOMContentLoaded', function () {
+  const generateResponseButtons = document.querySelectorAll('.generate-response-btn');
+
+  generateResponseButtons.forEach(button => {
+    button.addEventListener('click', async function () {
+      const userId = this.getAttribute('data-user-id');
+
+      try {
+        const response = await fetch(`/api/staff/generate-response/${userId}`);
+        const data = await response.json();
+        if (data.response) {
+          alert(`Generated response: ${data.response}`);
+        } else {
+          alert('Failed to generate response.');
+        }
+      } catch (error) {
+        console.error('Error generating response:', error);
+        alert('Error generating response.');
+      }
+    });
+  });
+});
 
     function loadChats() {
       fetch('/api/staff/dashboard')
