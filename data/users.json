@@ -8,5 +8,15 @@
     "email": "a",
     "username": "a",
     "password": "$2b$10$9SLi24Z1hq4kmTwa3XcwguhWxmyGglt6/MiP2PAYPD4o/lFCsd.v2"
+  },
+  {
+    "id": 2,
+    "name": "Ayush",
+    "nickname": "ayush",
+    "description": "like to play sports",
+    "goals": "lean out",
+    "email": "ayushlanka106@gmail.com",
+    "username": "alanka",
+    "password": "$2b$10$DEkI0xzHX7Bdftm6c7r8u.NUEo5rAj3o74.iDK8g8qTxZs8EISOPK"
   }
 ]

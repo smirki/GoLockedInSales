@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
       --secondary-color: #03DAC6;
       --surface-color: #1e1e1e;
     }
+
     body {
       font-family: 'Roboto', sans-serif;
       margin: 0;
@@ -21,17 +23,20 @@
       background-color: var(--bg-color);
       color: var(--text-color);
     }
+
     #dashboard-container {
       display: flex;
       max-width: 1200px;
       margin: 0 auto;
       padding: 20px;
     }
+
     .chat-list {
       width: 30%;
       padding: 10px;
       border-right: 1px solid var(--primary-color);
     }
+
     .chat {
       margin-bottom: 10px;
       padding: 10px;
@@ -41,52 +46,63 @@
       background-color: var(--surface-color);
       transition: background-color 0.3s;
     }
+
     .chat:hover {
       background-color: var(--primary-color);
       color: var(--bg-color);
     }
+
     .chat.needs-response {
       border-left: 5px solid var(--secondary-color);
     }
+
     .chat-messages {
       width: 70%;
       padding: 10px;
     }
+
     .chat-messages ul {
       list-style: none;
       padding: 0;
       max-height: calc(100vh - 200px);
       overflow-y: auto;
     }
+
     .chat-messages ul li {
       padding: 8px;
       margin-bottom: 10px;
       border-radius: 8px;
     }
+
     .chat-messages ul .user-message {
       background-color: var(--primary-color);
       color: var(--bg-color);
       margin-left: 20%;
     }
+
     .chat-messages ul .staff-message {
       background-color: var(--surface-color);
       margin-right: 20%;
     }
+
     .chat-messages ul .timestamp {
       display: block;
       font-size: 0.8em;
       color: var(--text-color);
       opacity: 0.7;
     }
+
     .viewing-count {
       font-size: 0.9em;
       color: var(--text-color);
       opacity: 0.7;
     }
+
     #response-form {
       display: flex;
       margin-top: 20px;
     }
+
     #response-msg {
       flex-grow: 1;
       padding: 10px;
@@ -95,6 +111,7 @@
       background-color: var(--surface-color);
       color: var(--text-color);
     }
+
     #response-form button {
       padding: 10px 20px;
       background-color: var(--secondary-color);
@@ -103,23 +120,29 @@
       border-radius: 0 4px 4px 0;
       cursor: pointer;
     }
+
     #response-form button:hover {
       opacity: 0.9;
     }
+
     @media (max-width: 768px) {
       #dashboard-container {
         flex-direction: column;
       }
-      .chat-list, .chat-messages {
+
+      .chat-list,
+      .chat-messages {
         width: 100%;
       }
     }
+
     #user-details {
       margin-bottom: 20px;
       font-size: 0.9em;
       color: var(--text-color);
       opacity: 0.7;
     }
+
     #lock-message {
       color: red;
       font-size: 0.9em;
@@ -128,6 +151,7 @@
     }
   </style>
 </head>
+
 <body>
   <div id="dashboard-container">
     <div class="chat-list" id="conversations"></div>
@@ -140,7 +164,8 @@
         <button type="submit"><i class="fas fa-paper-plane"></i></button>
       </form>
       <p id="lock-message">This chat is currently locked by another staff member.</p>
-      <button class="generate-response-btn" data-user-id="${chat.userId}" title="Generate response"><i class="fas fa-magic"></i></button>
+      <button class="generate-response-btn" data-user-id="${chat.userId}" title="Generate response"><i
+          class="fas fa-magic"></i></button>
     </div>
   </div>
 
@@ -161,27 +186,27 @@
     });
 
     document.addEventListener('DOMContentLoaded', function () {
-  const generateResponseButtons = document.querySelectorAll('.generate-response-btn');
+      const generateResponseButtons = document.querySelectorAll('.generate-response-btn');
 
-  generateResponseButtons.forEach(button => {
-    button.addEventListener('click', async function () {
-      const userId = this.getAttribute('data-user-id');
+      generateResponseButtons.forEach(button => {
+        button.addEventListener('click', async function () {
+          const userId = this.getAttribute('data-user-id');
 
-      try {
-        const response = await fetch(`/api/staff/generate-response/${userId}`);
-        const data = await response.json();
-        if (data.response) {
-          alert(`Generated response: ${data.response}`);
-        } else {
-          alert('Failed to generate response.');
-        }
-      } catch (error) {
-        console.error('Error generating response:', error);
-        alert('Error generating response.');
-      }
+          try {
+            const response = await fetch(`/api/staff/generate-response/${userId}`);
+            const data = await response.json();
+            if (data.response) {
+              alert(`Generated response: ${data.response}`);
+            } else {
+              alert('Failed to generate response.');
+            }
+          } catch (error) {
+            console.error('Error generating response:', error);
+            alert('Error generating response.');
+          }
+        });
+      });
     });
-  });
-});
 
     function loadChats() {
       fetch('/api/staff/dashboard')
@@ -220,27 +245,47 @@
       if (currentChatUserId) {
         socket.emit('stopViewing', { userId: currentChatUserId });
       }
+
       currentChatUserId = userId;
       socket.emit('staffViewing', { userId });
-      fetch(`/api/staff/dashboard`)
-        .then(response => response.json())
-        .then(chats => {
-          const chat = chats.find(c => c.userId === userId);
+
+      // Fetch user data and messages concurrently
+      Promise.all([
+        fetch(`/api/staff/dashboard`),
+        fetch(`/user/${userId}`) // Example endpoint for messages
+      ])
+        .then(([messagesResponse, userResponse]) => {
+          // Check if both responses are OK
+          if (!userResponse.ok || !messagesResponse.ok) {
+            throw new Error('One or both fetch requests failed');
+          }
+          return Promise.all([userResponse.json(), messagesResponse.json()]);
+        })
+        .then(([userData, messagesData]) => {
+          // Find the chat for the current user
+          const chat = messagesData.find(c => c.userId === userId);
+          const user_meta = userData;
           if (chat) {
             document.getElementById('chat-header').innerText = `Chat with ${chat.username}`;
             const userDetailsDiv = document.getElementById('user-details');
             userDetailsDiv.innerHTML = `
-              <p><strong>Name:</strong> ${chat.name}</p>
-              <p><strong>Nickname:</strong> ${chat.nickname}</p>
-              <p><strong>Description:</strong> ${chat.description}</p>
-              <p><strong>Goals:</strong> ${chat.goals}</p>
-            `;
+        <p><strong>Name:</strong> ${user_meta.name}</p>
+        <p><strong>Nickname:</strong> ${user_meta.nickname}</p>
+        <p><strong>Description:</strong> ${user_meta.description}</p>
+        <p><strong>Goals:</strong> ${user_meta.goals}</p>
+      `;
+
+            // Handle messages
             const messagesUl = document.getElementById('messages');
             messagesUl.innerHTML = '';
             chat.messages.forEach(msg => {
               addMessageToChat(msg);
             });
+
             scrollToBottom();
+          } else {
+            console.error('Chat not found for user:', userId);
+            Swal.fire('Error', 'Chat data not found.', 'error');
           }
         })
         .catch(error => {
@@ -249,27 +294,28 @@
         });
     }
 
-    function respond(event) {
-  event.preventDefault();
-  const responseMsgText = responseMsg.value;
-  if (responseMsgText && currentChatUserId) {
-    const msg = { userId: currentChatUserId, text: responseMsgText, timestamp: new Date().toISOString() };
 
-    socket.emit('responseMessage', msg, (error) => {
-      if (error) {
-        console.error('Error sending response:', error);
-        Swal.fire('Error', 'Failed to send response. Please try again.', 'error');
-      } else {
-        addMessageToChat({ sender: 'Staff', ...msg });
-        responseMsg.value = ''; // Clear the input field after successful send
-        scrollToBottom();
+    function respond(event) {
+      event.preventDefault();
+      const responseMsgText = responseMsg.value;
+      if (responseMsgText && currentChatUserId) {
+        const msg = { userId: currentChatUserId, text: responseMsgText, timestamp: new Date().toISOString() };
+
+        socket.emit('responseMessage', msg, (error) => {
+          if (error) {
+            console.error('Error sending response:', error);
+            Swal.fire('Error', 'Failed to send response. Please try again.', 'error');
+          } else {
+            addMessageToChat({ sender: 'Staff', ...msg });
+            responseMsg.value = ''; // Clear the input field after successful send
+            scrollToBottom();
+          }
+        });
+
+        // Clear the input field immediately, regardless of server response
+        responseMsg.value = '';
       }
-    });
-    
-    // Clear the input field immediately, regardless of server response
-    responseMsg.value = '';
-  }
-}
+    }
 
     socket.on('newUserMessage', ({ userId, message }) => {
       if (userId === currentChatUserId) {
@@ -356,4 +402,5 @@
     });
   </script>
 </body>
+
 </html>

@@ -1980,3 +1980,4 @@
 {"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-24T02:12:06.649Z"}
 {"error":{"expiredAt":"2024-07-23T23:53:12.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-24T02:13:06.640Z"}
 {"error":{"expiredAt":"2024-07-23T13:16:50.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-24T02:13:06.642Z"}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-25T04:14:16.593Z"}
