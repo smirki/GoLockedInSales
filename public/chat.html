@@ -179,6 +179,7 @@
       <h1 id="welcome-message">Welcome</h1>
       <button id="help-icon" title="Help"><i class="fas fa-question-circle"></i></button>
     </div>
+    <div id="goals"></div>
     <div id="messages"></div>
     <form id="chat-form">
       <input id="msg-input" type="text" placeholder="Type your message..." autocomplete="off" required>
@@ -223,6 +224,27 @@
     const sendButton = document.querySelector('#chat-form button[type="submit"]');
 
     welcomeMessage.textContent = `Welcome, ${username}`;
+
+
+    fetch(`/goals/${username}`)
+      .then(response => response.json())
+      .then(data => {
+        if (data.goals) {
+          const goalsText = document.createElement('p');
+          goalsText.textContent = `Goals: ${data.goals}`;
+          goals.appendChild(goalsText);
+        } else {
+          const errorText = document.createElement('p');
+          errorText.textContent = 'Failed to fetch goals.';
+          goals.appendChild(errorText);
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching goals:', error);
+        const errorText = document.createElement('p');
+        errorText.textContent = 'Error fetching goals.';
+        goals.appendChild(errorText);
+      });
 
     socket.emit('joinChat', { userId, username });
 

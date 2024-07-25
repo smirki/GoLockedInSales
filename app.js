@@ -193,6 +193,18 @@ app.get('/api/staff/dashboard', verifyToken, (req, res) => {
   res.json(chats);
 });
 
+app.get('/goals/:username', (req, res) => {
+  const username = req.params.username;
+  const users = readUsers();
+  const user = users.find(u => u.username === username);
+
+  if (user) {
+    res.json({ goals: user.goals });
+  } else {
+    res.status(404).json({ message: 'User not found' });
+  }
+});
+
 app.get('/user/:id', (req, res) => {
   const userId = parseInt(req.params.id);
   const users = readUsers();
