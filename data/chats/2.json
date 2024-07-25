@@ -1,0 +1,13 @@
+{
+  "userId": 2,
+  "username": "ayush",
+  "messages": [
+    {
+      "sender": "Staff",
+      "text": "hey! welcome to the site. Send a message to get started with your goals!",
+      "timestamp": "2024-07-25T04:14:02.412Z",
+      "read": false
+    }
+  ],
+  "lockedBy": null
+}

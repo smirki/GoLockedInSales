@@ -193,6 +193,18 @@ app.get('/api/staff/dashboard', verifyToken, (req, res) => {
   res.json(chats);
 });
 
+app.get('/user/:id', (req, res) => {
+  const userId = parseInt(req.params.id);
+  const users = readUsers();
+  const user = users.find(u => u.id === userId);
+
+  if (user) {
+    res.json(user);
+  } else {
+    res.status(404).json({ message: 'User not found' });
+  }
+});
+
 // Socket.io chat handling
 io.on('connection', socket => {
   logger.info('New WebSocket connection');
