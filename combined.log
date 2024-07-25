@@ -3159,3 +3159,35 @@
 {"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:06:11.850Z"}
 {"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:06:11.873Z","userId":2,"username":"alanka"}
 {"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:06:11.968Z","userId":2}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-25T19:08:02.821Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:09:38.570Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:09:38.597Z","userId":2,"username":"alanka"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:09:38.698Z","userId":2}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-25T19:10:01.289Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:10:01.587Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:10:01.605Z","userId":2,"username":"alanka"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:10:01.607Z","userId":2}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-25T19:11:18.132Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:11:18.459Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:11:18.475Z","userId":2,"username":"alanka"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:11:18.476Z","userId":2}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-25T19:12:22.996Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:12:23.415Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:12:23.441Z","userId":2,"username":"alanka"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:12:23.536Z","userId":2}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-25T19:12:49.938Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:12:50.115Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:12:50.131Z","userId":2,"username":"alanka"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:12:50.132Z","userId":2}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-25T19:13:01.642Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:13:01.951Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:13:01.970Z","userId":2,"username":"alanka"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:13:01.971Z","userId":2}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-25T19:13:15.741Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:13:15.967Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:13:15.997Z","userId":2,"username":"alanka"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:13:15.998Z","userId":2}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-25T19:13:23.845Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:13:24.326Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:13:24.336Z","userId":2,"username":"alanka"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:13:24.448Z","userId":2}

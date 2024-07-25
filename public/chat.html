@@ -156,12 +156,29 @@
         padding: 10px;
       }
     }
+
+    #header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    #help-icon {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 20px;
+      color: #007bff;
+    }
   </style>
 </head>
 
 <body>
   <div id="chat-container">
-    <h1 id="welcome-message">Welcome</h1>
+    <div id="header">
+      <h1 id="welcome-message">Welcome</h1>
+      <button id="help-icon" title="Help"><i class="fas fa-question-circle"></i></button>
+    </div>
     <div id="messages"></div>
     <form id="chat-form">
       <input id="msg-input" type="text" placeholder="Type your message..." autocomplete="off" required>
@@ -184,7 +201,14 @@
 
     tippy('#upcoming', {
       content: 'Upcoming Feature!',
+
     });
+
+    tippy('#help-icon', {
+      content: 'This page is where you will chat with a real human',
+
+    });
+
 
 
     const socket = io();
