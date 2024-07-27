@@ -276,8 +276,6 @@ io.on('connection', socket => {
         });
       
       logger.info('Chat message sent', { userId, username });
-
-      logger.info('Chat message sent', { userId, username });
     } catch (error) {
       logger.error('Error processing chat message', { error });
     }
