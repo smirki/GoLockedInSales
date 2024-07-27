@@ -9,6 +9,7 @@ const socketio = require('socket.io');
 const cookieParser = require('cookie-parser');
 const winston = require('winston');
 const cors = require('cors');
+const axios = require('axios');  // Add this line to require axios
 
 const app = express();
 const server = http.createServer(app);
@@ -192,9 +193,6 @@ const verifyToken = (req, res, next) => {
   }
 };
 
-
-
-
 app.get('/api/users/me', verifyToken, (req, res) => {
   res.json({ id: req.user.id, username: req.user.username });
 });
@@ -252,6 +250,17 @@ io.on('connection', socket => {
 
       io.to(userId.toString()).emit('message', newMessage);
       io.to('staff').emit('newUserMessage', { userId, message: newMessage });
+
+      // Send notification to staff using axios
+      axios.post('https://ntfy.sh/golockedinstaff',  `${username} sent a message: ${text}`
+      )
+      .then(response => {
+        logger.info('Notification sent successfully', { response: response.data });
+      })
+      .catch(error => {
+        logger.error('Error sending notification', { error });
+      });
+
       logger.info('Chat message sent', { userId, username });
     } catch (error) {
       logger.error('Error processing chat message', { error });
@@ -275,6 +284,20 @@ io.on('connection', socket => {
 
       io.to(userId.toString()).emit('message', newMessage);
       io.to('staff').emit('staffMessageSent', { userId, message: newMessage });
+
+      // Send notification to staff using axios
+      axios.post('https://ntfy.sh/golockedinstaff', {
+        title: 'Staff Response Sent',
+        message: `Staff (${staffUsername}) responded to ${chat.username}: ${text}`,
+        priority: 'high'
+      })
+      .then(response => {
+        logger.info('Notification sent successfully', { response: response.data });
+      })
+      .catch(error => {
+        logger.error('Error sending notification', { error });
+      });
+
       logger.info('Staff response sent', { userId });
     } catch (error) {
       logger.error('Error processing staff response', { error });

@@ -54,30 +54,48 @@
       "sender": "a",
       "text": "yeah",
       "timestamp": "2024-07-27T18:05:26.043Z",
-      "read": false
+      "read": true
     },
     {
       "sender": "a",
       "text": "okay",
       "timestamp": "2024-07-27T18:05:26.760Z",
-      "read": false
+      "read": true
     },
     {
       "sender": "a",
       "text": "ill do that",
       "timestamp": "2024-07-27T18:05:28.582Z",
-      "read": false
+      "read": true
     },
     {
       "sender": "a",
       "text": "bet",
       "timestamp": "2024-07-27T18:05:36.580Z",
-      "read": false
+      "read": true
     },
     {
       "sender": "a",
       "text": "lol",
       "timestamp": "2024-07-27T18:05:41.814Z",
+      "read": true
+    },
+    {
+      "sender": "a",
+      "text": "hi",
+      "timestamp": "2024-07-27T19:37:29.803Z",
+      "read": true
+    },
+    {
+      "sender": "a",
+      "text": "hi",
+      "timestamp": "2024-07-27T19:38:11.250Z",
+      "read": false
+    },
+    {
+      "sender": "a",
+      "text": "howdy",
+      "timestamp": "2024-07-27T19:40:20.900Z",
       "read": false
     }
   ],

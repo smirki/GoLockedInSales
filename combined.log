@@ -3387,3 +3387,22 @@
 {"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T18:44:17.737Z"}
 {"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T18:47:20.513Z"}
 {"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T18:50:12.816Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T19:37:15.769Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-27T19:37:27.087Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T19:37:27.185Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T19:37:27.190Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T19:37:27.194Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T19:37:29.835Z","userId":1,"username":"a"}
+{"error":{"code":"ENOTFOUND","config":{"adapter":["xhr","http","fetch"],"data":"{\"title\":\"New User Message\",\"message\":\"a sent a message: hi\",\"priority\":\"high\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Accept-Encoding":"gzip, compress, deflate, br","Content-Length":"79","Content-Type":"application/json","User-Agent":"axios/1.7.2"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"https://api.ntfy.sh/golockedinstaff","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"getaddrinfo ENOTFOUND api.ntfy.sh","name":"Error","stack":"Error: getaddrinfo ENOTFOUND api.ntfy.sh\n    at AxiosError.from (C:\\Users\\Smirk\\Documents\\Programming\\Chat\\node_modules\\axios\\dist\\node\\axios.cjs:841:14)\n    at RedirectableRequest.handleRequestError (C:\\Users\\Smirk\\Documents\\Programming\\Chat\\node_modules\\axios\\dist\\node\\axios.cjs:3106:25)\n    at RedirectableRequest.emit (node:events:519:28)\n    at eventHandlers.<computed> (C:\\Users\\Smirk\\Documents\\Programming\\Chat\\node_modules\\follow-redirects\\index.js:38:24)\n    at ClientRequest.emit (node:events:519:28)\n    at TLSSocket.socketErrorListener (node:_http_client:500:9)\n    at TLSSocket.emit (node:events:519:28)\n    at emitErrorNT (node:internal/streams/destroy:169:8)\n    at emitErrorCloseNT (node:internal/streams/destroy:128:3)\n    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)\n    at Axios.request (C:\\Users\\Smirk\\Documents\\Programming\\Chat\\node_modules\\axios\\dist\\node\\axios.cjs:4224:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","status":null},"level":"error","message":"Error sending notification","timestamp":"2024-07-27T19:37:30.890Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T19:38:06.064Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T19:38:06.087Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T19:38:08.857Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T19:38:08.897Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T19:38:08.901Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T19:38:09.008Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T19:38:11.282Z","userId":1,"username":"a"}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1722152293,"id":"2R3unAkiWCpf","message":"{\"title\":\"New User Message\",\"message\":\"a sent a message: hi\",\"priority\":\"high\"}","time":1722109093,"topic":"golockedinstaff"},"timestamp":"2024-07-27T19:38:12.416Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T19:40:18.044Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T19:40:18.103Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T19:40:20.931Z","userId":1,"username":"a"}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1722152422,"id":"sQw6qLY14CQ6","message":"a sent a message: howdy","time":1722109222,"topic":"golockedinstaff"},"timestamp":"2024-07-27T19:40:22.041Z"}
