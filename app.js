@@ -251,7 +251,7 @@ io.on('connection', socket => {
       io.to(userId.toString()).emit('message', newMessage);
       io.to('staff').emit('newUserMessage', { userId, message: newMessage });
 
-      // Send notification to staff using axios
+      // Send notification to staff using axioss
       axios.post('https://ntfy.sh/golockedinstaff', 
         `New user message received:
       From: ${username}
@@ -276,6 +276,12 @@ io.on('connection', socket => {
         });
       
       logger.info('Chat message sent', { userId, username });
+
+      logger.info('Chat message sent', { userId, username });
+    } catch (error) {
+      logger.error('Error processing chat message', { error });
+    }
+  });
 
   socket.on('responseMessage', msg => {
     try {
