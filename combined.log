@@ -3406,3 +3406,4 @@
 {"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T19:40:18.103Z"}
 {"level":"info","message":"Chat message sent","timestamp":"2024-07-27T19:40:20.931Z","userId":1,"username":"a"}
 {"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1722152422,"id":"sQw6qLY14CQ6","message":"a sent a message: howdy","time":1722109222,"topic":"golockedinstaff"},"timestamp":"2024-07-27T19:40:22.041Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T19:45:22.369Z"}

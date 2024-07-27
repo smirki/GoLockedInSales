@@ -252,8 +252,21 @@ io.on('connection', socket => {
       io.to('staff').emit('newUserMessage', { userId, message: newMessage });
 
       // Send notification to staff using axios
-      axios.post('https://ntfy.sh/golockedinstaff',  `${username} sent a message: ${text}`
-      )
+      axios.post('https://ntfy.sh/golockedinstaff',  {
+        method: 'POST',
+        body: `New user message received:
+        From: ${username}
+        Message: ${text}
+        Time: ${new Date().toLocaleString()}
+        Please respond promptly to maintain good customer service.`,
+        headers: {
+        'Title': '🆕 New User Message',
+        'Priority': 'high',
+        'Tags': 'speech_balloon,exclamation',
+        'Click': 'https://chat.golockedin.com/staff.html',
+        'Actions': 'view, Open Staff Chat, https://chat.golockedin.com/staff.html'
+        }
+        })
       .then(response => {
         logger.info('Notification sent successfully', { response: response.data });
       })
