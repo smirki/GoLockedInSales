@@ -1,0 +1,69 @@
+/* 
+|......................................................................
+| Template Name: GolockedIn
+| Author: Thememarch
+| Version: 1.0.0
+|--------------------------------------------------------------------------
+|--------------------------------------------------------------------------
+| TABLE OF CONTENTS:
+|--------------------------------------------------------------------------
+| 1. Basic Color Variable
+| 2. Typography
+| 3. Preloader
+| 4. Spacing
+| 5. General
+| 6. Slider
+| 7. Video Popup
+| 8. Header
+| 9. Footer
+| 10. Sidebar
+| 11. Form Control
+| 12. Button
+| 13. Hero
+| 14. Slideing Text
+| 15. About
+| 16. Accordion
+| 17. Classes
+| 18. Counter Funfact
+| 19. Team
+| 20. Schedule Calendar
+| 21. Feature
+| 22. Testimonial
+| 23. Pricing Calculator
+| 24. Blog Post
+| 25. Gallery
+| 26. Subscribe Email
+| 27. Services
+| 28. Cta
+| 29. Contact
+ ................................................................*/
+
+@import "default/color_variable";
+@import "default/typography";
+@import "common/preloader";
+@import "common/spacing";
+@import "common/general";
+@import "common/slider";
+@import "common/video-modal";
+@import "common/header";
+@import "common/footer";
+@import "common/sidebar";
+@import "shortcode/form-control";
+@import "common/button";
+@import "shortcode/hero";
+@import "shortcode/slidingtext";
+@import "shortcode/about";
+@import "shortcode/accordion";
+@import "shortcode/classes";
+@import "shortcode/funfact";
+@import "shortcode/team";
+@import "shortcode/schedule-calendar";
+@import "shortcode/feature";
+@import "shortcode/testimonial";
+@import "shortcode/pricing-calculator";
+@import "shortcode/blog";
+@import "shortcode/gallery";
+@import "shortcode/subscribe-email";
+@import "shortcode/services";
+@import "shortcode/cta";
+@import "shortcode/contact";

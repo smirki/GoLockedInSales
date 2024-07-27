@@ -1,0 +1,33 @@
+/*--------------------------------------------------------------
+  29. Contact
+----------------------------------------------------------------*/
+
+.contact-page-section-title {
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.contact-details-info {
+  .title-desp {
+    line-height: 27px;
+    font-size: 18px;
+    color: rgba(231, 231, 231, 0.7);
+  }
+}
+.icon-details {
+  display: flex;
+  gap: 15px;
+  margin-top: 40px;
+  .icon-info {
+    .title {
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 100%;
+    }
+    .desp {
+      font-size: 18px;
+      line-height: 27px;
+    }
+  }
+}

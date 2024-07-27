@@ -1,0 +1,184 @@
+/*--------------------------------------------------------------
+12. Button
+----------------------------------------------------------------*/
+
+@mixin button($bg-color, $text-color, $hover-color-text: $white) {
+  font-family: "Teko", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  padding: 17px 40px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  border: none;
+  position: relative;
+  line-height: 100%;
+  color: $text-color;
+  gap: 10px;
+  background: linear-gradient(to left, $bg-color 50%, rgba($bg-color, 90%) 50%)
+    right;
+  background-size: 200%;
+  background-position: right;
+
+  &:hover {
+    color: $hover-color-text;
+    background-position: left;
+  }
+}
+
+// Include button mixin for different variations
+.button-primary {
+  @include button($primary, $white);
+  .icon {
+    transition: all 0.3s;
+    transform: translateX(0px);
+    margin-bottom: 4px;
+  }
+  &:hover {
+    .icon {
+      transform: translateX(8px);
+    }
+  }
+}
+
+.button-primary.type_2 {
+  @include button($primary, $white);
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-primary.style_2 {
+  @include button($primary, $white);
+  width: 100%;
+}
+
+.button-primary.color2 {
+  @include button($white, $black, $black);
+  overflow: hidden;
+  .icon {
+    transition: transform 0.2s linear;
+    svg {
+      path {
+        fill: $black !important;
+      }
+    }
+  }
+  &:hover {
+    .icon {
+      transform: translateX(10px);
+    }
+  }
+}
+
+@mixin button-arrow($colorOpacity, $colorOpacityTwo, $fillcolor) {
+  width: 60px;
+  height: 60px;
+  background-color: rgba($secondary, $colorOpacity);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  &:hover {
+    background-color: rgba($secondary, $colorOpacityTwo);
+    svg {
+      path {
+        fill: $fillcolor;
+      }
+    }
+  }
+}
+
+.button-arrow-white {
+  @include button-arrow(20%, 100%, $black);
+}
+
+.button-arrow-black {
+  @include button-arrow(100%, 10%, $white);
+}
+
+.button-arrow-black.team-btn {
+  @include button-arrow(100%, 100%, $black);
+  &:hover {
+    background-color: $white;
+  }
+}
+.secondary-btn {
+  display: inline-flex;
+  min-width: 153px;
+  padding: 14px 26px;
+  align-items: center;
+  gap: 6px;
+  border: none;
+  border-left: 5px solid $primary;
+  background: linear-gradient(to right, $primary 50%, $white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: all 0.3s ease-out;
+  a {
+    svg {
+      transition: all 0.2s ease-out;
+    }
+  }
+  &:hover {
+    background-position: left bottom;
+    a {
+      color: $white;
+      svg {
+        transform: translateX(10px);
+      }
+    }
+  }
+  span {
+    font-size: 20px;
+    font-family: var(--heading-font-family);
+    margin-top: 4px;
+    font-weight: 500;
+    line-height: 100%;
+  }
+  svg {
+    transition: transform 0.3s ease;
+  }
+
+  &:hover > svg {
+    transform: translateX(5px);
+  }
+}
+
+.secondary-btn.type2 {
+  @extend .secondary-btn;
+  background: linear-gradient(
+    to right,
+    $primary 50%,
+    rgba(213, 189, 162, 0.2) 50%
+  );
+  background-size: 200% 100%;
+  background-position: right bottom;
+  color: #fff;
+  &:hover {
+    background-position: left bottom;
+    a {
+      svg {
+        transform: translateX(10px);
+      }
+    }
+  }
+}
+
+.specialized-Area-btn {
+  display: inline-flex;
+  padding: 5px 15px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 50px;
+  font-size: 18px;
+  line-height: 27px;
+  border: 1px solid $secondary;
+  &:hover {
+    color: $secondary;
+  }
+}

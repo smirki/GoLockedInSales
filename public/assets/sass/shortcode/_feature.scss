@@ -1,0 +1,245 @@
+/*--------------------------------------------------------------
+  21. Feature
+----------------------------------------------------------------*/
+
+$duration: 300ms;
+$timing-fn: ease;
+$turquoise: #00f5d4;
+$wet-asphalt: #34495e;
+$midnight-blue: #2c3e50;
+$clouds: #ecf0f1;
+
+.feature-card {
+  perspective: 960px;
+}
+
+.info {
+  transform: rotate3d(1, 0, 0, 90deg);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  background-color: transparentize($turquoise, 0.1);
+}
+
+.in-top .info {
+  transform-origin: 50% 0%;
+  animation: in-top $duration $timing-fn 0ms 1 forwards;
+}
+.in-right .info {
+  transform-origin: 100% 0%;
+  animation: in-right $duration $timing-fn 0ms 1 forwards;
+}
+.in-bottom .info {
+  transform-origin: 50% 100%;
+  animation: in-bottom $duration $timing-fn 0ms 1 forwards;
+}
+.in-left .info {
+  transform-origin: 0% 0%;
+  animation: in-left $duration $timing-fn 0ms 1 forwards;
+}
+
+.out-top .info {
+  transform-origin: 50% 0%;
+  animation: out-top $duration $timing-fn 0ms 1 forwards;
+}
+.out-right .info {
+  transform-origin: 100% 50%;
+  animation: out-right $duration $timing-fn 0ms 1 forwards;
+}
+.out-bottom .info {
+  transform-origin: 50% 100%;
+  animation: out-bottom $duration $timing-fn 0ms 1 forwards;
+}
+.out-left .info {
+  transform-origin: 0% 0%;
+  animation: out-left $duration $timing-fn 0ms 1 forwards;
+}
+
+@keyframes in-top {
+  from {
+    transform: rotate3d(-1, 0, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-right {
+  from {
+    transform: rotate3d(0, -1, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-bottom {
+  from {
+    transform: rotate3d(1, 0, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+@keyframes in-left {
+  from {
+    transform: rotate3d(0, 1, 0, 90deg);
+  }
+  to {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+}
+
+@keyframes out-top {
+  from {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(-1, 0, 0, 104deg);
+  }
+}
+@keyframes out-right {
+  from {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(0, -1, 0, 104deg);
+  }
+}
+@keyframes out-bottom {
+  from {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(1, 0, 0, 104deg);
+  }
+}
+@keyframes out-left {
+  from {
+    transform: rotate3d(0, 0, 0, 0deg);
+  }
+  to {
+    transform: rotate3d(0, 1, 0, 104deg);
+  }
+}
+
+.feature-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.feature-content > * {
+  flex: 0 0 auto;
+  max-width: 100%;
+  width: 50%;
+}
+
+.feature-card {
+  position: relative;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  .normal {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    font-size: 50px;
+    line-height: 200px;
+    .text-content {
+      position: absolute;
+      bottom: 50px;
+      left: 48px;
+      max-width: 361px;
+    }
+    .feature-card-img {
+      width: 100%;
+    }
+  }
+  .info {
+    .hover-content {
+      position: absolute;
+      left: 50px;
+      bottom: 50px;
+      max-width: 361px;
+    }
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 28px;
+    color: transparentize(#fff, 0.1);
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: transparentize(#fff, 0.2);
+  }
+}
+
+.feature-video {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: all 3s ease-in-out;
+  @media screen and (min-width: 1025px) {
+    .scrolling-image {
+      height: 125% !important;
+    }
+    .scrolling-image {
+      position: absolute;
+      top: 10%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100%;
+    }
+  }
+
+  .ak-video-block {
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .feature-content > .feature-video {
+    width: 35%;
+  }
+  .feature-content > .feature {
+    width: 65%;
+  }
+  .feature-card {
+    .normal {
+      .text-content {
+        left: 20px;
+        bottom: 20px;
+        right: 10px;
+      }
+    }
+    .info {
+      .hover-content {
+        left: 20px;
+        bottom: 20px;
+        right: 10px;
+      }
+    }
+  }
+  .feature-video {
+    .video-img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .feature-content > .feature-video {
+    width: 100%;
+  }
+  .feature-content > .feature {
+    width: 100%;
+  }
+}

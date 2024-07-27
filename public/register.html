@@ -56,6 +56,9 @@
   </form>
 
   <script>
+    if (document.cookie.split(';').some((item) => item.trim().startsWith('token='))) {
+      window.location.href = '/chat.html';
+    }
     document.getElementById('register-form').addEventListener('submit', function(event) {
       event.preventDefault();
       const name = document.getElementById('name').value;
@@ -65,7 +68,7 @@
       const password = document.getElementById('password').value;
       const description = document.getElementById('description').value;
       const goals = document.getElementById('goals').value;
-
+  
       fetch('/api/users/register', {
         method: 'POST',
         headers: {
@@ -77,7 +80,7 @@
       .then(data => {
         alert(data.message);
         if (data.message === 'User registered and logged in successfully') {
-          window.location.href = '/chat.html'; // Redirect to login page
+          window.location.href = '/chat.html'; // Redirect to chat page
         }
       });
     });

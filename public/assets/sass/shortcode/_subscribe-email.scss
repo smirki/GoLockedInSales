@@ -1,0 +1,103 @@
+/*--------------------------------------------------------------
+  26. Subscribe Email
+----------------------------------------------------------------*/
+
+.subscribe-email {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+  z-index: 12;
+  &.type2 {
+    background-color: $white;
+    color: $black;
+    padding: 95px 80px;
+    .subscribe-content {
+      .subscribe-title {
+        color: $black;
+      }
+    }
+
+    .subscribe-form {
+      border-right: 4px solid var(--Extra, #00bbf9);
+      border-bottom: 4px solid var(--Extra, #00bbf9);
+      background: rgba(213, 189, 162, 0.2);
+      .email-input {
+        color: $black;
+      }
+    }
+  }
+  .subscribe-content {
+    max-width: 408px;
+    .subscribe-title {
+      text-transform: uppercase;
+    }
+  }
+
+  .subscribe-form {
+    display: flex;
+    gap: 30px;
+    border-bottom: 2px solid $primary;
+    max-width: 600px;
+    width: 100%;
+    padding: 10px 10px 10px 20px;
+    background: #020f23;
+    .email-input {
+      color: $white;
+      background-color: transparent;
+      border: 0;
+      width: 100%;
+      &:focus {
+        outline: none;
+      }
+    }
+    .submit-btn {
+      background-color: $primary;
+      position: relative;
+      overflow: hidden;
+      padding: 8px 13px;
+      border: 0px;
+    }
+
+    .submit-btn:hover .send svg {
+      transition: all 0.3s ease;
+      animation: sending 0.5s linear 0.3s forwards;
+    }
+  }
+}
+@media screen and (max-width: 1199px) {
+  .subscribe-email {
+    justify-content: space-between;
+
+    .subscribe-form {
+      max-width: 400px;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .subscribe-email {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    &.type2 {
+      padding: 15px;
+    }
+    .subscribe-form {
+      max-width: 100%;
+    }
+  }
+}
+
+@keyframes sending {
+  0% {
+    transform: translateY(0);
+    transform: rotate(360deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+    transform: translate(40px, -60px);
+  }
+}

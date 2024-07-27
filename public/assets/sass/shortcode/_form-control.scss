@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+11. Form Control
+----------------------------------------------------------------*/
+
+.form-control.style1,
+.form-select.style1 {
+  margin: 0;
+  display: inline-block;
+  width: 100%;
+  color: #353f4f;
+  appearance: none;
+  background-clip: padding-box;
+  background-color: $white;
+  font-family: Teko;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+  border: none;
+  border-radius: 0px;
+  padding: 15px 19px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.15s ease-in-out;
+  &:focus {
+    box-shadow: 0 0 0 0.25rem rgba(109, 66, 10, 0.486);
+  }
+  &.color2 {
+    background-color: #1a1a27;
+    color: $white;
+    &::placeholder {
+      color: $white;
+      opacity: 0.7;
+    }
+    &::-ms-input-placeholder {
+      color: $white;
+      opacity: 0.7;
+    }
+  }
+  &.type2 {
+    font-family: var(--body-font-family);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+.form-select.style1 {
+  padding: 18px 19px;
+  background-size: 22px 17px;
+}
+.label {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 100%;
+  font-family: var(--heading-font-family);
+  color: $primary;
+}
+.form-title {
+  font-size: 28px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+select.form-select {
+  background-color: #f0f0f0;
+}
+
+select.form-select option {
+  color: #000;
+}

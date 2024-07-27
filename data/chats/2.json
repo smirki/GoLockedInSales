@@ -1,13 +1,74 @@
 {
   "userId": 2,
-  "username": "ayush",
+  "username": "b",
   "messages": [
     {
       "sender": "Staff",
       "text": "hey! welcome to the site. Send a message to get started with your goals!",
-      "timestamp": "2024-07-25T04:14:02.412Z",
+      "timestamp": "2024-07-27T17:53:58.377Z",
       "read": false
+    },
+    {
+      "sender": "b",
+      "text": "hi",
+      "timestamp": "2024-07-27T17:54:19.752Z",
+      "read": true
+    },
+    {
+      "sender": "b",
+      "text": "what can i do",
+      "timestamp": "2024-07-27T17:54:23.202Z",
+      "read": true
+    },
+    {
+      "sender": "b",
+      "text": "to be updated",
+      "timestamp": "2024-07-27T17:54:25.030Z",
+      "read": true
+    },
+    {
+      "sender": "Staff",
+      "text": "updateee",
+      "timestamp": "2024-07-27T17:54:50.796Z",
+      "read": false
+    },
+    {
+      "sender": "b",
+      "text": "bet",
+      "timestamp": "2024-07-27T17:55:02.102Z",
+      "read": true
+    },
+    {
+      "sender": "b",
+      "text": "okay",
+      "timestamp": "2024-07-27T17:55:03.146Z",
+      "read": true
+    },
+    {
+      "sender": "b",
+      "text": "just",
+      "timestamp": "2024-07-27T17:55:03.802Z",
+      "read": true
+    },
+    {
+      "sender": "b",
+      "text": "lml",
+      "timestamp": "2024-07-27T17:55:04.718Z",
+      "read": true
+    },
+    {
+      "sender": "b",
+      "text": "lmk",
+      "timestamp": "2024-07-27T17:55:06.124Z",
+      "read": true
+    },
+    {
+      "sender": "b",
+      "text": "hi",
+      "timestamp": "2024-07-27T17:55:20.199Z",
+      "read": true
     }
   ],
-  "lockedBy": null
+  "lockedBy": null,
+  "needsResponse": true
 }

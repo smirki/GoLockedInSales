@@ -3231,3 +3231,155 @@
 {"level":"info","message":"New WebSocket connection","timestamp":"2024-07-25T19:28:41.109Z"}
 {"level":"info","message":"User joined chat","timestamp":"2024-07-25T19:28:41.123Z","userId":2,"username":"alanka"}
 {"level":"info","message":"Messages marked as read","timestamp":"2024-07-25T19:28:41.225Z","userId":2}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T17:52:04.660Z"}
+{"error":{"expiredAt":"2024-07-23T23:53:12.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-27T17:52:12.156Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:52:12.160Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:52:12.164Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:52:24.377Z"}
+{"error":{"expiredAt":"2024-07-23T23:53:12.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-27T17:52:24.388Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:52:24.390Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:52:24.393Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T17:52:50.071Z"}
+{"error":{"expiredAt":"2024-07-23T23:53:12.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-27T17:52:52.216Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:52:52.219Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:52:52.224Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:52:53.671Z"}
+{"error":{"expiredAt":"2024-07-23T23:53:12.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-27T17:52:53.681Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:52:53.682Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:52:53.686Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:52:53.827Z"}
+{"error":{"expiredAt":"2024-07-23T23:53:12.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-27T17:52:53.838Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:52:53.840Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:52:53.842Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:52:53.997Z"}
+{"error":{"expiredAt":"2024-07-23T23:53:12.000Z","message":"jwt expired","name":"TokenExpiredError"},"level":"error","message":"Invalid token","timestamp":"2024-07-27T17:52:54.007Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:52:54.008Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:52:54.011Z"}
+{"level":"info","message":"User registered","timestamp":"2024-07-27T17:52:58.585Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:52:59.483Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T17:52:59.493Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:52:59.494Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:53:09.932Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:53:09.944Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:53:09.959Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:53:10.638Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-27T17:53:13.739Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:53:18.508Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:53:21.279Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:53:25.393Z","userId":1,"username":"a"}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-27T17:53:34.111Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:53:41.382Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:53:42.740Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:53:44.319Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:53:44.913Z","userId":1}
+{"level":"info","message":"User logged out","timestamp":"2024-07-27T17:53:51.642Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:53:51.668Z"}
+{"level":"info","message":"User registered","timestamp":"2024-07-27T17:53:58.377Z","userId":2,"username":"b"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:53:59.219Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T17:53:59.225Z","userId":0,"username":null}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:53:59.327Z","userId":2}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:01.328Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:01.329Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:04.488Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:04.488Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:54:05.841Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:54:05.854Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:54:05.857Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:06.798Z","userId":2}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:09.761Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:09.761Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:10.423Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:10.423Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:10.597Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:10.598Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:10.733Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:10.733Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:10.885Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:10.885Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:11.034Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:11.034Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:11.166Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:11.166Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:54:12.327Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:54:12.365Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T17:54:12.369Z","userId":0,"username":null}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:12.472Z","userId":2}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T17:54:13.761Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T17:54:13.762Z"}
+{"level":"info","message":"User logged out","timestamp":"2024-07-27T17:54:15.746Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:54:15.770Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-27T17:54:17.878Z","userId":2,"username":"b"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:54:17.936Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T17:54:17.939Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:18.044Z","userId":2}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:54:19.752Z","userId":2,"username":"b"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:54:23.203Z","userId":2,"username":"b"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:54:25.031Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:26.532Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:26.876Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:45.692Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:46.343Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:46.948Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:47.681Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-07-27T17:54:50.797Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:54.837Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:55.062Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:55.664Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:56.167Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:54:56.620Z","userId":2}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:55:02.103Z","userId":2,"username":"b"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:55:03.147Z","userId":2,"username":"b"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:55:03.802Z","userId":2,"username":"b"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:55:04.718Z","userId":2,"username":"b"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:55:06.125Z","userId":2,"username":"b"}
+{"level":"info","message":"User logged out","timestamp":"2024-07-27T17:55:09.981Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:55:10.003Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-27T17:55:18.404Z","userId":2,"username":"b"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:55:18.460Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T17:55:18.464Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:55:18.577Z","userId":2}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:55:20.200Z","userId":2,"username":"b"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:55:31.656Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T17:56:17.216Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:56:18.527Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:56:18.531Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-27T17:56:44.605Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:56:44.671Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T17:56:44.675Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:56:44.778Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:56:47.435Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T17:56:49.419Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:56:50.759Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:56:51.023Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:56:51.780Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:56:51.987Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T17:56:52.417Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T17:56:53.945Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T17:56:53.956Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T17:56:53.958Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T18:04:27.376Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T18:04:27.385Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T18:04:33.584Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T18:04:33.588Z","userId":0,"username":null}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T18:04:44.450Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T18:04:44.451Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T18:04:46.370Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T18:04:46.385Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-07-27T18:04:46.389Z"}
+{"level":"warn","message":"Chat file not found, creating a new one","timestamp":"2024-07-27T18:04:58.730Z","userId":0}
+{"error":{},"level":"error","message":"Error processing chat message","timestamp":"2024-07-27T18:04:58.730Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T18:05:17.818Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-07-27T18:05:23.582Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-07-27T18:05:23.627Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-07-27T18:05:23.631Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-07-27T18:05:23.735Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T18:05:26.044Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T18:05:26.761Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T18:05:28.583Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T18:05:36.581Z","userId":1,"username":"a"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-07-27T18:05:41.814Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T18:05:44.960Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T18:05:47.746Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T18:05:49.863Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-07-27T18:05:50.202Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-07-27T18:36:11.237Z"}

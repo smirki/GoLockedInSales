@@ -1,0 +1,154 @@
+/*--------------------------------------------------------------
+  25. Gallery
+----------------------------------------------------------------*/
+
+.gallery-slider {
+  position: relative;
+  z-index: 111;
+}
+.gallery.style1 {
+  display: flex;
+
+  & > * {
+    width: 20%;
+  }
+  .gallery-img-content {
+    max-width: 395px;
+    height: auto;
+    position: relative;
+    cursor: pointer;
+    .gallery-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .gallery-img-overlay {
+      position: absolute;
+      left: 20px;
+      opacity: 0;
+      right: 20px;
+      top: 20px;
+      bottom: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(5px);
+      transition: all 0.3s ease-in;
+      transform: scale(0.9);
+      svg {
+        width: 70px;
+        height: 70px;
+        background-color: $white;
+        padding: 20px;
+        transition: all 0.3s ease-in;
+        &:hover {
+          background-color: $secondary;
+        }
+      }
+    }
+    transition: all 0.3s ease-in;
+    &:hover {
+      .gallery-img-overlay {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+.lg-custom-thumbnails {
+  background-color: #040d10;
+  #lg-counter {
+    color: #fff;
+  }
+  .lg-icon {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+.gallery-show {
+  position: relative;
+  z-index: 111;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: 400px;
+  grid-auto-flow: dense;
+  padding: 0 10px;
+
+  .item {
+    img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 11;
+  }
+  .vertical {
+    grid-row: span 2;
+  }
+  .horizontal {
+    grid-column: span 2;
+  }
+  .big {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+
+  .frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(1, 1, 15, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+    transform: scale(0.8);
+  }
+  .frame span {
+    width: 26px;
+    height: 26px;
+  }
+  .item:hover .frame {
+    opacity: 1;
+    transform: scale(0.95);
+  }
+  .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+    transition-delay: 0.2s;
+    transform: scale(1);
+  }
+  .item:hover img {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallery.style1 {
+    & > * {
+      width: 50%;
+    }
+  }
+
+  .gallery-show {
+    grid-template-columns: auto;
+    grid-auto-rows: auto;
+  }
+}

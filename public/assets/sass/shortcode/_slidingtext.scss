@@ -1,0 +1,146 @@
+/*--------------------------------------------------------------
+  14. Slideing Text
+----------------------------------------------------------------*/
+.sliding-text {
+  position: relative;
+  z-index: 12;
+  bottom: 60px;
+  &.type2 {
+    bottom: 0px;
+  }
+}
+
+.moving-section-wrap {
+  overflow: hidden;
+  background: $primary;
+  transform: rotate(-3deg);
+  transform-origin: center;
+  display: inline-flex;
+  position: relative;
+  z-index: 13;
+  &.type2 {
+    background: $secondary;
+    transform: rotate(0deg);
+    .moving-section-in {
+      .moving-section {
+        span {
+          color: $black;
+        }
+      }
+    }
+    &.color2 {
+      background: #020f23;
+      .moving-section-in {
+        .moving-section {
+          span {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+  .moving-section-in {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    min-width: 100%;
+    .moving-section {
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
+      padding: 15px 0px;
+      animation: slide-right 20s linear infinite;
+      .moving-text {
+        display: flex;
+        gap: 30px;
+        &.type2 {
+          gap: 15px;
+        }
+      }
+      span {
+        color: $white;
+      }
+    }
+  }
+}
+.moving-section-wrap-two {
+  overflow: hidden;
+  background: $secondary;
+  transform: rotate(3deg);
+  transform-origin: center;
+  z-index: -13;
+  .moving-section-in {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    min-width: 100%;
+    .moving-section {
+      display: flex;
+      flex-shrink: 0;
+      align-items: center;
+      padding: 15px 0px;
+      animation: slide-right 20s linear infinite;
+      .moving-text {
+        display: flex;
+        gap: 30px;
+      }
+      span {
+        color: $black;
+      }
+    }
+  }
+}
+
+.animation-speed-10 {
+  animation: slide-left 10s linear infinite;
+}
+
+.animation-speed-30 {
+  animation: slide-left 30s linear infinite;
+}
+
+.animation-speed-40 {
+  animation: slide-left 40s linear infinite;
+}
+
+.animation-speed-50 {
+  animation: slide-left 50s linear infinite;
+}
+
+.moving-section-hover-push:hover .moving-section {
+  animation-play-state: paused;
+}
+
+@media screen and (max-width: 767px) {
+  .sliding-text {
+    bottom: 0;
+  }
+  .moving-section-wrap {
+    transform: rotate(0deg);
+  }
+  .moving-section-wrap-two {
+    transform: rotate(0deg);
+    .moving-section-in {
+      .moving-section {
+        animation: slide-left 20s linear infinite;
+      }
+    }
+  }
+}
+
+@keyframes slide-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+@keyframes slide-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}

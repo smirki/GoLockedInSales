@@ -1,0 +1,173 @@
+/*--------------------------------------------------------------
+  19. Team
+----------------------------------------------------------------*/
+
+.team-content {
+  display: flex;
+  flex-wrap: wrap;
+  & > * {
+    width: 33.3333333333%;
+  }
+}
+.team-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+
+  &.style2 {
+    .team-header-info {
+      margin-bottom: 0;
+    }
+    .team-body-info {
+      width: 100%;
+      position: absolute;
+      bottom: 30px;
+    }
+  }
+  .team-header-info {
+    margin-bottom: 35px;
+    overflow: hidden;
+    .card-img-top {
+      transition: transform 0.5s ease;
+    }
+  }
+  .team-body-info {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 25px;
+
+    .team-btn {
+      svg {
+        transition: all 0.2s ease;
+      }
+    }
+    .team-title {
+      font-size: 28px;
+      font-weight: 600;
+      text-transform: uppercase;
+      transition: all 0.3s ease;
+      color: $white;
+    }
+    .team-subtitle {
+      font-family: Vazirmatn;
+      font-size: 16px;
+      font-weight: 400;
+      color: var(--body-color);
+    }
+  }
+  &:hover {
+    .team-header-info {
+      .card-img-top {
+        transform: scale(1.1);
+      }
+    }
+
+    .team-body-info {
+      .team-btn {
+        svg {
+          transform: translateX(7px);
+        }
+      }
+      .team-title {
+        color: $primary;
+      }
+    }
+  }
+}
+
+.history-content-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 275px;
+  .history-content-img {
+    width: 73px;
+  }
+}
+
+.trainer-details {
+  display: flex;
+  gap: 83px;
+  .trainer-details-img {
+    width: 438px;
+    max-width: 100%;
+  }
+  .trainer-content {
+    width: 757px;
+    max-width: 100%;
+  }
+}
+.all-badge {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  & > img {
+    flex: 1 1 auto;
+    max-width: 103px;
+    width: 20%;
+  }
+}
+
+.social-follow {
+  a {
+    transition: all 0.3s;
+    transform: scale(1.1);
+    &:hover {
+      transform: scale(1.4);
+      path {
+        fill: $primary;
+      }
+    }
+  }
+
+  .line-dot {
+    .dot {
+      width: 4px;
+      height: 4px;
+      background-color: #00bbf9;
+      border-radius: 50%;
+      position: relative;
+
+      &::before {
+        top: 50%;
+        position: absolute;
+        content: "";
+        width: 270px;
+        height: 1px;
+        flex-shrink: 0;
+        opacity: 0.3;
+        background-color: #00bbf9;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .team-content {
+    gap: 40px;
+    & > * {
+      width: 47%;
+    }
+  }
+  .trainer-details {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .team-content {
+    & > * {
+      width: 100%;
+    }
+  }
+
+  .history-content-card {
+    gap: 10px;
+    max-width: 100%;
+    .history-content-img {
+      width: 73px;
+    }
+  }
+}

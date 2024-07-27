@@ -1,0 +1,70 @@
+/*--------------------------------------------------------------
+  20. Schedule Calendar
+----------------------------------------------------------------*/
+
+.schedule-calendar {
+  background-color: $secondaryBg;
+  padding: 40px 43px;
+  &.type2 {
+    padding: 0;
+  }
+  .br-routine th,
+  td {
+    border: 1px dotted rgba(255, 255, 255, 0.2);
+    padding: 1px;
+    text-align: center;
+    min-width: 145px;
+    max-width: 150px;
+    height: 80px;
+    font-family: teko;
+    flex-shrink: 0;
+    font-size: 20px;
+    flex-grow: 1;
+  }
+  .br-routine .cs-row-title {
+    border-left: none;
+    text-align: left;
+  }
+  .tab-content {
+    .cs-col-title {
+      border-top: none;
+      &.one {
+        border-left: none;
+      }
+    }
+  }
+  .cs-item {
+    background-color: $secondary;
+    margin: 4px;
+    padding: 12px 11px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block;
+    .cs-item-title {
+      font-family: var(--heading-font-family);
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: #01010f;
+      transition: all 0.3s ease;
+    }
+    .cs-item-short-title {
+      font-family: var(--body-font-family);
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 400;
+      color: #020f23;
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      background-color: $primary;
+      .cs-item-title {
+        color: $white;
+      }
+      .cs-item-short-title {
+        color: $white;
+      }
+    }
+  }
+}

@@ -1,0 +1,67 @@
+/*--------------------------------------------------------------
+  18. Counter Funfact
+----------------------------------------------------------------*/
+
+.funfact-counter {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $white;
+  padding: 76px 0px;
+  .auto-counter-section {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.funfact.style1 {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  .funfact-number {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: $black;
+    span {
+      font-size: 62px;
+      font-weight: 600;
+      margin-top: 10px;
+      font-family: var(--heading-font-family);
+    }
+    &.color-1 {
+      color: $white;
+    }
+  }
+  .funfact-text {
+    p {
+      color: $black;
+      font-weight: 600;
+      font-size: 24px;
+      text-transform: uppercase;
+      font-family: var(--heading-font-family);
+      position: relative;
+    }
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .funfact.style1 {
+    margin-bottom: 00px;
+    text-align: start;
+    .funfact-text {
+      p {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 567px) {
+  .funfact-counter {
+    .auto-counter-section {
+      flex-direction: column;
+    }
+  }
+}

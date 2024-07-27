@@ -1,0 +1,230 @@
+/*--------------------------------------------------------------
+  27. Services
+----------------------------------------------------------------*/
+
+.services-all {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+  & > * {
+    width: 50%;
+  }
+}
+
+.services-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  max-width: 577px;
+  max-height: 350px;
+  margin-bottom: 45px;
+  &.mt-50 {
+    margin-top: 50px;
+  }
+  .services-body {
+    max-width: 500px;
+    flex: 0 0 auto;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(213, 189, 162, 0.05);
+    position: relative;
+    .services-img-content {
+      position: relative;
+      right: 10px;
+      bottom: 10px;
+      background-color: $secondaryBg;
+      transition: all 0.3s ease;
+      cursor: pointer;
+      display: block;
+      .services-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 11;
+        object-fit: cover;
+      }
+      .services-info {
+        width: 100%;
+        padding: 73px 88px 50px 50px;
+        z-index: 111;
+        position: relative;
+        .services-text {
+          font-size: 16px;
+          color: $white;
+        }
+        .services-title {
+          font-family: Teko;
+          font-size: 28px;
+          font-weight: 600;
+          text-transform: uppercase;
+          margin-top: 35px;
+          margin-bottom: 8px;
+          color: $white;
+        }
+      }
+      &:hover {
+        background-image: none;
+        background-color: $primary;
+        z-index: 111;
+        .services-img {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+  .services-number {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.1);
+    font-family: Teko;
+    font-size: 200px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.services-details-title-img {
+  position: relative;
+}
+.services-details-title-img.style1 {
+  width: 100vw;
+  display: flex;
+  gap: 37px;
+  align-items: center;
+
+  .services-details-title-info {
+    max-width: 402px;
+    .services-details-title {
+      font-size: 60px;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 100%;
+    }
+    .services-details-desp {
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 25px;
+    }
+  }
+  .services-details-img-content {
+    .services-details-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      min-height: 300px;
+    }
+  }
+}
+
+.services-details-inner-content {
+  .titel {
+    font-size: 28px;
+    text-transform: uppercase;
+  }
+  .desp {
+    font: 18px;
+    line-height: 27px;
+  }
+  .title-two {
+    color: $primary;
+    line-height: 100%;
+  }
+  .list-text {
+    display: flex;
+    gap: 123px;
+  }
+  .ttc-title {
+    text-transform: uppercase;
+    font-size: 36px;
+  }
+}
+
+.package-list-content {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1399px) {
+  .services-card {
+    max-width: 500px;
+    .services-body {
+      max-width: 450px;
+      .services-img-content {
+        .services-info {
+          padding: 73px 30px 50px 50px;
+        }
+      }
+    }
+    .services-number {
+      font-size: 150px;
+    }
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .services-card {
+    max-width: 440px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .services-all {
+    & > * {
+      width: 100%;
+    }
+  }
+  .services-card {
+    max-width: 100%;
+    .services-body {
+      max-width: 100%;
+      .services-img-content {
+        .services-info {
+          padding: 80px;
+        }
+      }
+    }
+  }
+
+  .services-details-title-img.style1 {
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .row-reverse-column {
+    display: flex;
+    gap: 30px;
+    & > * {
+      width: 50%;
+    }
+  }
+}
+@media screen and (max-width: 767px) {
+  .services-card {
+    .services-body {
+      .services-img-content {
+        .services-info {
+          padding: 30px;
+        }
+      }
+    }
+  }
+  .services-details-inner-content {
+    .list-text {
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+  .row-reverse-column {
+    flex-direction: column;
+    & > * {
+      width: 100%;
+    }
+  }
+}

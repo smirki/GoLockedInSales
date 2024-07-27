@@ -1,0 +1,81 @@
+/*--------------------------------------------------------------
+10. Sidebar
+----------------------------------------------------------------*/
+
+@media screen and (min-width: 991px) {
+  #sidebarWrap {
+    height: auto;
+    width: 420px;
+    float: right;
+    position: relative;
+    box-shadow: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #content {
+    width: 850px;
+    height: auto;
+  }
+  #sidebar {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    z-index: 1111;
+  }
+
+  #sidebar.fixed {
+    position: fixed;
+    top: 0;
+  }
+}
+@media screen and (max-width: 1399px) {
+  #content {
+    width: 650px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #sidebarWrap {
+    width: 345px;
+  }
+  #content {
+    width: 550px;
+  }
+  #sidebar {
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .classespages-details-content {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 80px;
+  }
+  #sidebarWrap {
+    width: 100%;
+  }
+  #content {
+    width: 100%;
+  }
+  #sidebar {
+    width: 100%;
+  }
+}
+
+@keyframes moveImage {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.bim-calculation img {
+  animation: moveImage 1.5s ease infinite;
+}

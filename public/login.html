@@ -51,11 +51,14 @@
   </form>
 
   <script>
+    if (document.cookie.split(';').some((item) => item.trim().startsWith('token='))) {
+      window.location.href = '/chat.html';
+    }
     document.getElementById('login-form').addEventListener('submit', function(event) {
       event.preventDefault();
       const username = document.getElementById('username').value;
       const password = document.getElementById('password').value;
-
+  
       fetch('/api/users/login', {
         method: 'POST',
         headers: {
@@ -74,11 +77,7 @@
         }
       });
     });
-
-    // Redirect to chat page if already logged in
-    if (document.cookie.split(';').some((item) => item.trim().startsWith('token='))) {
-      window.location.href = '/chat.html';
-    }
   </script>
+  
 </body>
 </html>

@@ -98,6 +98,15 @@ const writeChat = (chat) => {
 let chatLocks = {}; // Track chat locks
 
 // User routes
+
+app.use((req, res, next) => {
+  if ((req.path === '/login.html' || req.path === '/register.html') && req.cookies.token) {
+    res.redirect('/chat.html');
+  } else {
+    next();
+  }
+});
+
 app.post('/api/users/register', async (req, res) => {
   try {
     const { name, nickname, description, goals, email, username, password } = req.body;
@@ -182,6 +191,9 @@ const verifyToken = (req, res, next) => {
     return res.redirect('/index.html'); // Redirect to homepage if invalid token
   }
 };
+
+
+
 
 app.get('/api/users/me', verifyToken, (req, res) => {
   res.json({ id: req.user.id, username: req.user.username });

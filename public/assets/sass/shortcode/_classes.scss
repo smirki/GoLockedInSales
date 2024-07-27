@@ -1,0 +1,157 @@
+/*--------------------------------------------------------------
+  17. Classes
+----------------------------------------------------------------*/
+
+.classes-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-height: 500px;
+  word-wrap: break-word;
+  background-clip: border-box;
+  text-transform: uppercase;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 0;
+  .classes-img-overlay {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 30px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    z-index: 12;
+    fill: rgba(246, 122, 69, 0.15);
+    background: rgba($primary, 10%);
+    backdrop-filter: blur(5px);
+    clip-path: polygon(0% -0.75%, 100% 75.25%, 100% 100%, 100% 100%, 0% 100%);
+    .classes-text {
+      font-family: var(--heading-font-family);
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 100%;
+      color: var(--body-color);
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      right: 0;
+      bottom: 0;
+      z-index: -11;
+      left: 0;
+      width: 100%;
+      height: 0%;
+      fill: rgba(246, 122, 69, 0.15);
+      background: rgba($primary, 10%);
+      backdrop-filter: blur(5px);
+      clip-path: polygon(0% -0.75%, 100% 75.25%, 100% 100%, 100% 100%, 0% 100%);
+      transition: all 0.3s linear;
+    }
+  }
+  &:hover .classes-img-overlay::before {
+    height: 100%;
+    background: rgba($primary, 100%);
+  }
+  .card-img {
+    transition: transform 0.5s ease;
+  }
+  &:hover > .card-img {
+    transform: scale(1.2) rotate(10deg);
+  }
+}
+
+.classes-details-title-img.style1 {
+  width: 100vw;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+
+  .classes-details-title-info {
+    max-width: 558px;
+    flex-grow: 1;
+    .classes-details-title {
+      font-size: 60px;
+      font-weight: 600;
+      text-transform: uppercase;
+      line-height: 100%;
+    }
+    .classes-details-desp {
+      font-size: 18px;
+      line-height: 27px;
+      margin-bottom: 50px;
+    }
+  }
+  .classes-details-img-content {
+    flex-grow: 1;
+    .classes-details-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      min-height: 300px;
+    }
+  }
+  .schedule-duration {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    margin-top: 50px;
+    .schedule-divider {
+      width: 1px;
+      height: 70px;
+      flex-shrink: 0;
+      background: var(--Extra, #00bbf9);
+    }
+    .schedule,
+    .duration {
+      .desp {
+        font-size: 18px;
+      }
+      .title {
+        font-size: 24px;
+      }
+    }
+  }
+}
+.classespages-details-content.style1 {
+  .details-content {
+    .title {
+      font-size: 60px;
+      line-height: 100%;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+    }
+  }
+}
+@media screen and (max-width: 991px) {
+  .classes-details-title-img.style1 {
+    flex-direction: column-reverse;
+    width: 100%;
+    align-items: flex-start;
+    .classes-details-title-info {
+      .classes-details-desp {
+        margin-bottom: 30px;
+      }
+    }
+    .schedule-duration {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      margin-top: 30px;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .classespages-details-content.style1 {
+    .details-content {
+      .title {
+        font-size: 38px;
+        text-transform: uppercase;
+      }
+    }
+  }
+}

@@ -5,34 +5,82 @@
     {
       "sender": "Staff",
       "text": "hey! welcome to the site. Send a message to get started with your goals!",
-      "timestamp": "2024-07-23T22:50:01.444Z",
-      "read": false
-    },
-    {
-      "sender": "a",
-      "text": "hii!",
-      "timestamp": "2024-07-23T22:50:12.937Z",
-      "read": true
-    },
-    {
-      "sender": "a",
-      "text": "hi",
-      "timestamp": "2024-07-23T22:53:14.514Z",
-      "read": true
-    },
-    {
-      "sender": "Staff",
-      "text": "whats up",
-      "timestamp": "2024-07-23T22:53:20.465Z",
+      "timestamp": "2024-07-27T17:52:58.585Z",
       "read": false
     },
     {
       "sender": "Staff",
-      "text": "hi",
-      "timestamp": "2024-07-23T22:54:48.436Z",
+      "text": "hi there",
+      "timestamp": "2024-07-27T17:53:13.739Z",
+      "read": false
+    },
+    {
+      "sender": "a",
+      "text": "how can i help  you",
+      "timestamp": "2024-07-27T17:53:18.507Z",
+      "read": true
+    },
+    {
+      "sender": "a",
+      "text": "this doesnt make any sense",
+      "timestamp": "2024-07-27T17:53:21.278Z",
+      "read": true
+    },
+    {
+      "sender": "a",
+      "text": "what can i use this site for?",
+      "timestamp": "2024-07-27T17:53:25.393Z",
+      "read": true
+    },
+    {
+      "sender": "Staff",
+      "text": "we can help you stay up to date on your goals!!",
+      "timestamp": "2024-07-27T17:53:34.111Z",
+      "read": false
+    },
+    {
+      "sender": "a",
+      "text": "yupp",
+      "timestamp": "2024-07-27T17:56:47.434Z",
+      "read": true
+    },
+    {
+      "sender": "a",
+      "text": "lmk what i can do",
+      "timestamp": "2024-07-27T17:56:49.419Z",
+      "read": true
+    },
+    {
+      "sender": "a",
+      "text": "yeah",
+      "timestamp": "2024-07-27T18:05:26.043Z",
+      "read": false
+    },
+    {
+      "sender": "a",
+      "text": "okay",
+      "timestamp": "2024-07-27T18:05:26.760Z",
+      "read": false
+    },
+    {
+      "sender": "a",
+      "text": "ill do that",
+      "timestamp": "2024-07-27T18:05:28.582Z",
+      "read": false
+    },
+    {
+      "sender": "a",
+      "text": "bet",
+      "timestamp": "2024-07-27T18:05:36.580Z",
+      "read": false
+    },
+    {
+      "sender": "a",
+      "text": "lol",
+      "timestamp": "2024-07-27T18:05:41.814Z",
       "read": false
     }
   ],
   "lockedBy": null,
-  "needsResponse": false
+  "needsResponse": true
 }
