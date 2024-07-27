@@ -240,28 +240,28 @@ io.on('connection', socket => {
     try {
       const { userId, username, text } = msg;
       let chat = readChat(userId);
-
+  
       if (!chat.username) chat.username = username; // Set the username if not present
-
+  
       const newMessage = { sender: username, text, timestamp: new Date().toISOString(), read: false };
       chat.messages.push(newMessage);
       chat.needsResponse = true; // Mark chat as needing response
       writeChat(chat);
-
+  
       io.to(userId.toString()).emit('message', newMessage);
       io.to('staff').emit('newUserMessage', { userId, message: newMessage });
-
-      // Send notification to staff using axioss
+  
+      // Send notification to staff using axios
       axios.post('https://ntfy.sh/golockedinstaff', 
         `New user message received:
-      From: ${username}
-      Message: ${text}
-      Time: ${new Date().toLocaleString()}
-      
-      Please respond promptly to maintain good customer service.`, 
+  From: ${username}
+  Message: ${text}
+  Time: ${new Date().toLocaleString()}
+  
+  Please respond promptly to maintain good customer service.`, 
         {
           headers: {
-            'Title': '🆕 New User Message',
+            'Title': `From: ${username}`,
             'Priority': 'high',
             'Tags': 'speech_balloon,exclamation',
             'Click': 'https://chat.golockedin.com/staff.html',
