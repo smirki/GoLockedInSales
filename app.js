@@ -228,7 +228,7 @@ app.get('/user/:id', (req, res) => {
 });
 
 // Socket.io chat handling
-io.on('connection', socket => {
+io.on('connection', (socket) => {
   logger.info('New WebSocket connection');
 
   socket.on('joinChat', ({ userId, username }) => {
@@ -236,29 +236,28 @@ io.on('connection', socket => {
     logger.info('User joined chat', { userId, username });
   });
 
-  socket.on('chatMessage', msg => {
+  socket.on('chatMessage', (msg) => {
     try {
       const { userId, username, text } = msg;
       let chat = readChat(userId);
-  
+
       if (!chat.username) chat.username = username; // Set the username if not present
-  
+
       const newMessage = { sender: username, text, timestamp: new Date().toISOString(), read: false };
       chat.messages.push(newMessage);
       chat.needsResponse = true; // Mark chat as needing response
       writeChat(chat);
-  
+
+      // Emit message to the specific user and staff room
       io.to(userId.toString()).emit('message', newMessage);
       io.to('staff').emit('newUserMessage', { userId, message: newMessage });
-  
+
       // Send notification to staff using axios
       axios.post('https://ntfy.sh/golockedinstaff', 
         `New user message received:
-  From: ${username}
-  Message: ${text}
-  Time: ${new Date().toLocaleString()}
-  
-  Please respond promptly to maintain good customer service.`, 
+From: ${username}
+Message: ${text}
+Time: ${new Date().toLocaleString()}`,
         {
           headers: {
             'Title': `From: ${username}`,
@@ -274,14 +273,14 @@ io.on('connection', socket => {
         .catch(error => {
           logger.error('Error sending notification', { error });
         });
-      
+
       logger.info('Chat message sent', { userId, username });
     } catch (error) {
       logger.error('Error processing chat message', { error });
     }
   });
 
-  socket.on('responseMessage', msg => {
+  socket.on('responseMessage', (msg) => {
     try {
       const { userId, text, staffUsername } = msg;
       if (chatLocks[userId] && chatLocks[userId] !== socket.id) {
@@ -323,12 +322,12 @@ io.on('connection', socket => {
     logger.info('Staff joined chat');
   });
 
-  socket.on('markAsRead', userId => {
+  socket.on('markAsRead', (userId) => {
     try {
       let chat = readChat(userId);
 
       if (chat) {
-        chat.messages.forEach(message => {
+        chat.messages.forEach((message) => {
           if (message.sender !== 'Staff') {
             message.read = true;
           }
@@ -364,7 +363,7 @@ io.on('connection', socket => {
   socket.on('disconnect', () => {
     logger.info('User disconnected');
     // Remove locks held by the disconnected staff member
-    Object.keys(chatLocks).forEach(userId => {
+    Object.keys(chatLocks).forEach((userId) => {
       if (chatLocks[userId] === socket.id) {
         delete chatLocks[userId];
       }
