@@ -3679,3 +3679,5 @@
 {"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:19:41.987Z"}
 {"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:19:41.990Z"}
 {"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:19:57.414Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-11-08T15:30:32.533Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:30:32.628Z"}
