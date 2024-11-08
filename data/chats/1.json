@@ -114,13 +114,55 @@
       "sender": "a",
       "text": "hello",
       "timestamp": "2024-07-27T19:52:51.918Z",
-      "read": false
+      "read": true
     },
     {
       "sender": "a",
       "text": "hi",
       "timestamp": "2024-07-27T19:53:04.147Z",
+      "read": true
+    },
+    {
+      "sender": "a",
+      "text": "hi",
+      "timestamp": "2024-11-08T14:59:23.287Z",
+      "read": true
+    },
+    {
+      "sender": "a",
+      "text": "yo this is a",
+      "timestamp": "2024-11-08T15:00:09.716Z",
+      "read": true
+    },
+    {
+      "sender": "Staff",
+      "text": "yo yo yo",
+      "timestamp": "2024-11-08T15:02:55.715Z",
       "read": false
+    },
+    {
+      "sender": "a",
+      "text": "hi",
+      "timestamp": "2024-11-08T15:03:41.042Z",
+      "read": true
+    },
+    {
+      "sender": "Staff",
+      "text": "yo",
+      "timestamp": "2024-11-08T15:05:14.028Z",
+      "read": false
+    },
+    {
+      "sender": "Staff",
+      "text": "I hope you can feel better",
+      "timestamp": "2024-11-08T15:05:19.788Z",
+      "read": false
+    },
+    {
+      "sender": "a",
+      "text": "What can I do to make myself better?",
+      "timestamp": "2024-11-08T15:05:38.100Z",
+      "read": true
     }
   ],
   "lockedBy": null,

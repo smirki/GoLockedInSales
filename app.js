@@ -371,6 +371,37 @@ Time: ${new Date().toLocaleString()}`,
   });
 });
 
+app.post('/api/subscribe', (req, res) => {
+  const { email } = req.body;
+
+  // Basic email validation
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email)) {
+    return res.status(400).json({ message: 'Invalid email address' });
+  }
+
+  const subscribersFile = path.join(__dirname, 'data', 'subscribers.json');
+
+  // Read existing subscribers, if file exists
+  let subscribers = [];
+  if (fs.existsSync(subscribersFile)) {
+    const fileContent = fs.readFileSync(subscribersFile, 'utf-8');
+    subscribers = JSON.parse(fileContent);
+  }
+
+  // Avoid duplicate email entries
+  if (subscribers.includes(email)) {
+    return res.status(409).json({ message: 'Email already subscribed' });
+  }
+
+  // Add new email and save
+  subscribers.push(email);
+  fs.writeFileSync(subscribersFile, JSON.stringify(subscribers, null, 2));
+
+  res.status(200).json({ message: 'Subscription successful' });
+});
+
+
 const PORT = process.env.PORT || 3009;
 server.listen(PORT, () => {
   logger.info(`Server running on port ${PORT}`);

@@ -1,0 +1,38 @@
+{
+  "userId": 3,
+  "username": "Hi",
+  "messages": [
+    {
+      "sender": "Staff",
+      "text": "hey! welcome to the site. Send a message to get started with your goals!",
+      "timestamp": "2024-11-08T15:07:00.147Z",
+      "read": false
+    },
+    {
+      "sender": "Staff",
+      "text": "Hey! Hope you're doing well",
+      "timestamp": "2024-11-08T15:07:32.665Z",
+      "read": false
+    },
+    {
+      "sender": "r",
+      "text": "Yeah I should be",
+      "timestamp": "2024-11-08T15:07:41.919Z",
+      "read": true
+    },
+    {
+      "sender": "r",
+      "text": "How can I do better?",
+      "timestamp": "2024-11-08T15:07:45.203Z",
+      "read": true
+    },
+    {
+      "sender": "Staff",
+      "text": "Well hopefully you can do better by eating more food",
+      "timestamp": "2024-11-08T15:08:11.885Z",
+      "read": false
+    }
+  ],
+  "lockedBy": null,
+  "needsResponse": false
+}

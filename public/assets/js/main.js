@@ -507,3 +507,27 @@
   }
   //end the scripts
 })(jQuery);
+
+
+document.querySelector('.subscribe-form').addEventListener('submit', async (event) => {
+  event.preventDefault();
+  
+  const email = document.querySelector('#email').value;
+
+  try {
+    const response = await fetch('/api/subscribe', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ email })
+    });
+    
+    const result = await response.json();
+    if (response.ok) {
+      alert(result.message); // Display success message
+    } else {
+      alert(`Error: ${result.message}`); // Display error message
+    }
+  } catch (error) {
+    alert('An error occurred while subscribing. Please try again.');
+  }
+});

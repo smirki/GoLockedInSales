@@ -67,8 +67,44 @@
       "text": "hi",
       "timestamp": "2024-07-27T17:55:20.199Z",
       "read": true
+    },
+    {
+      "sender": "b",
+      "text": "hi",
+      "timestamp": "2024-11-08T14:59:57.855Z",
+      "read": true
+    },
+    {
+      "sender": "b",
+      "text": "yo this is b",
+      "timestamp": "2024-11-08T15:00:03.383Z",
+      "read": true
+    },
+    {
+      "sender": "Staff",
+      "text": "this is crazy",
+      "timestamp": "2024-11-08T15:02:59.311Z",
+      "read": false
+    },
+    {
+      "sender": "Staff",
+      "text": "what is this",
+      "timestamp": "2024-11-08T15:03:18.343Z",
+      "read": false
+    },
+    {
+      "sender": "b",
+      "text": "okay let me kow how it goes",
+      "timestamp": "2024-11-08T15:03:29.495Z",
+      "read": true
+    },
+    {
+      "sender": "Staff",
+      "text": "what is this",
+      "timestamp": "2024-11-08T15:05:08.876Z",
+      "read": false
     }
   ],
   "lockedBy": null,
-  "needsResponse": true
+  "needsResponse": false
 }

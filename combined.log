@@ -3427,3 +3427,255 @@
 {"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"3EFhAzERDc","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1722153173,"id":"dNEvehr1iw7T","message":"New user message received:\n  From: a\n  Message: hello\n  Time: 7/27/2024, 3:52:51 PM\n  \n  Please respond promptly to maintain good customer service.","priority":4,"tags":["speech_balloon","exclamation"],"time":1722109973,"title":"From: a","topic":"golockedinstaff"},"timestamp":"2024-07-27T19:52:53.079Z"}
 {"level":"info","message":"Chat message sent","timestamp":"2024-07-27T19:53:04.150Z","userId":1,"username":"a"}
 {"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"jtIH87RsBh","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1722153186,"id":"p0RcRrA6ljVA","message":"New user message received:\n  From: a\n  Message: hi\n  Time: 7/27/2024, 3:53:04 PM\n  \n  Please respond promptly to maintain good customer service.","priority":4,"tags":["speech_balloon","exclamation"],"time":1722109986,"title":"From: a","topic":"golockedinstaff"},"timestamp":"2024-07-27T19:53:05.273Z"}
+{"level":"info","message":"Server running on port 3009","timestamp":"2024-11-08T14:59:04.165Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-11-08T14:59:19.028Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T14:59:19.252Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T14:59:19.258Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T14:59:19.375Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-11-08T14:59:23.325Z","userId":1,"username":"a"}
+{"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"V8c1NeiRwD","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1731121165,"id":"IX4O2JOxb1cr","message":"New user message received:\nFrom: a\nMessage: hi\nTime: 11/8/2024, 9:59:23 AM","priority":4,"tags":["speech_balloon","exclamation"],"time":1731077965,"title":"From: a","topic":"golockedinstaff"},"timestamp":"2024-11-08T14:59:23.416Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T14:59:28.914Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T14:59:28.923Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T14:59:28.924Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T14:59:34.108Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T14:59:35.319Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T14:59:35.323Z","userId":0,"username":null}
+{"level":"info","message":"User logged out","timestamp":"2024-11-08T14:59:44.522Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T14:59:44.557Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-11-08T14:59:46.913Z","userId":2,"username":"b"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T14:59:46.984Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T14:59:46.989Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T14:59:47.099Z","userId":2}
+{"level":"info","message":"Chat message sent","timestamp":"2024-11-08T14:59:57.858Z","userId":2,"username":"b"}
+{"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"TgYkxULsx3","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1731121199,"id":"IEmF2O2ppw3e","message":"New user message received:\nFrom: b\nMessage: hi\nTime: 11/8/2024, 9:59:57 AM","priority":4,"tags":["speech_balloon","exclamation"],"time":1731077999,"title":"From: b","topic":"golockedinstaff"},"timestamp":"2024-11-08T14:59:57.937Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-11-08T15:00:03.385Z","userId":2,"username":"b"}
+{"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"uye98o886e","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1731121205,"id":"Qb9qB7z0bq08","message":"New user message received:\nFrom: b\nMessage: yo this is b\nTime: 11/8/2024, 10:00:03 AM","priority":4,"tags":["speech_balloon","exclamation"],"time":1731078005,"title":"From: b","topic":"golockedinstaff"},"timestamp":"2024-11-08T15:00:03.474Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-11-08T15:00:09.717Z","userId":1,"username":"a"}
+{"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"YHs6wT3McI","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1731121211,"id":"VZUVt7pwmkQL","message":"New user message received:\nFrom: a\nMessage: yo this is a\nTime: 11/8/2024, 10:00:09 AM","priority":4,"tags":["speech_balloon","exclamation"],"time":1731078011,"title":"From: a","topic":"golockedinstaff"},"timestamp":"2024-11-08T15:00:09.800Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:01:30.395Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:01:30.511Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:01:30.530Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:01:30.627Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:01:32.094Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:01:32.142Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:01:32.145Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:01:32.258Z","userId":2}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:02:47.137Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:02:47.141Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:02:53.922Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-11-08T15:02:55.717Z","userId":1}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1731121377,"id":"7jkHiZMapK0w","message":"{\"title\":\"Staff Response Sent\",\"message\":\"Staff (undefined) responded to a: yo yo yo\",\"priority\":\"high\"}","time":1731078177,"topic":"golockedinstaff"},"timestamp":"2024-11-08T15:02:55.794Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:02:56.852Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-11-08T15:02:59.312Z","userId":2}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1731121380,"id":"SMoys1QgbdtW","message":"{\"title\":\"Staff Response Sent\",\"message\":\"Staff (undefined) responded to b: this is crazy\",\"priority\":\"high\"}","time":1731078180,"topic":"golockedinstaff"},"timestamp":"2024-11-08T15:02:59.339Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:12.608Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:12.626Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:03:12.629Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:13.349Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:13.365Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:03:13.366Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:13.500Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:13.530Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:03:13.534Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:03:13.903Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:03:15.655Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-11-08T15:03:18.344Z","userId":2}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1731121400,"id":"L4qwFCSFhh5c","message":"{\"title\":\"Staff Response Sent\",\"message\":\"Staff (undefined) responded to b: what is this\",\"priority\":\"high\"}","time":1731078200,"topic":"golockedinstaff"},"timestamp":"2024-11-08T15:03:18.436Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-11-08T15:03:29.497Z","userId":2,"username":"b"}
+{"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"E3haaOrKQ2","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1731121411,"id":"pxXw60vXnU0X","message":"New user message received:\nFrom: b\nMessage: okay let me kow how it goes\nTime: 11/8/2024, 10:03:29 AM","priority":4,"tags":["speech_balloon","exclamation"],"time":1731078211,"title":"From: b","topic":"golockedinstaff"},"timestamp":"2024-11-08T15:03:29.573Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:33.803Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:34.462Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:36.248Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:36.336Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:36.342Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:03:36.343Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:36.404Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:36.479Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:36.483Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:03:36.484Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:36.572Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:36.653Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:36.659Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:36.754Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:36.833Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:36.837Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:03:36.837Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:36.907Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:36.976Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:36.980Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:37.061Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:37.151Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:37.156Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:37.214Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:37.269Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:37.273Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:03:37.274Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:37.397Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:37.472Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:37.477Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:37.532Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:37.593Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:37.612Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:37.674Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:37.751Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:37.759Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:37.854Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:37.922Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:37.926Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:38.019Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:38.102Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:38.108Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:38.159Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:38.231Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:38.237Z","userId":1,"username":"a"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:38.422Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:38.427Z","userId":1,"username":"a"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:38.483Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:38.536Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:38.540Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:03:38.541Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:38.647Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:38.715Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:38.719Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:03:38.822Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-11-08T15:03:41.044Z","userId":1,"username":"a"}
+{"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"FCfsfhISj7","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1731121422,"id":"bdEtkd3sR1vZ","message":"New user message received:\nFrom: a\nMessage: hi\nTime: 11/8/2024, 10:03:41 AM","priority":4,"tags":["speech_balloon","exclamation"],"time":1731078222,"title":"From: a","topic":"golockedinstaff"},"timestamp":"2024-11-08T15:03:41.123Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:43.780Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:03:43.783Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:46.900Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:46.919Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:03:46.923Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:49.882Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:49.973Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:03:49.982Z","userId":1,"username":"a"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:03:49.985Z","userId":1}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:51.080Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:03:51.097Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:03:51.101Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:03:54.744Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:01.958Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:01.963Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:20.439Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:20.469Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:20.473Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:20.947Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:20.979Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:20.982Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:23.223Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:23.975Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:24.007Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:24.011Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:24.138Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:24.171Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:24.178Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:24.319Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:24.350Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:24.357Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:24.491Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:24.522Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:24.527Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:24.668Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:24.698Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:24.703Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:24.851Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:24.882Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:24.885Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:25.039Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:25.073Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:25.076Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:25.247Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:25.282Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:25.284Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:25.431Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:25.463Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:25.467Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:25.620Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:25.653Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:25.659Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:27.428Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:29.479Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:29.482Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:37.212Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:04:37.214Z","userId":0,"username":null}
+{"level":"info","message":"User logged out","timestamp":"2024-11-08T15:04:40.078Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:40.111Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:42.110Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:42.126Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:42.130Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-11-08T15:04:46.509Z","userId":2,"username":"b"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:46.586Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:04:46.592Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:04:46.700Z","userId":2}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:47.819Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:04:47.838Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:04:47.841Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:04:55.381Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:05:05.410Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:05:05.767Z","userId":2}
+{"level":"info","message":"Staff response sent","timestamp":"2024-11-08T15:05:08.878Z","userId":2}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1731121510,"id":"qCTWkpanfnrr","message":"{\"title\":\"Staff Response Sent\",\"message\":\"Staff (undefined) responded to b: what is this\",\"priority\":\"high\"}","time":1731078310,"topic":"golockedinstaff"},"timestamp":"2024-11-08T15:05:08.975Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:05:10.846Z","userId":1}
+{"level":"info","message":"Staff response sent","timestamp":"2024-11-08T15:05:14.029Z","userId":1}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1731121515,"id":"pysqmMlOF0iX","message":"{\"title\":\"Staff Response Sent\",\"message\":\"Staff (undefined) responded to a: yo\",\"priority\":\"high\"}","time":1731078315,"topic":"golockedinstaff"},"timestamp":"2024-11-08T15:05:14.109Z"}
+{"level":"info","message":"Staff response sent","timestamp":"2024-11-08T15:05:19.789Z","userId":1}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1731121521,"id":"GVSdmbQQnIv2","message":"{\"title\":\"Staff Response Sent\",\"message\":\"Staff (undefined) responded to a: I hope you can feel better\",\"priority\":\"high\"}","time":1731078321,"topic":"golockedinstaff"},"timestamp":"2024-11-08T15:05:19.870Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:05:24.759Z","userId":1}
+{"level":"info","message":"Chat message sent","timestamp":"2024-11-08T15:05:38.102Z","userId":1,"username":"a"}
+{"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"ke6rqWNEbG","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1731121539,"id":"hl1K0ZLA6CFx","message":"New user message received:\nFrom: a\nMessage: What can I do to make myself better?\nTime: 11/8/2024, 10:05:38 AM","priority":4,"tags":["speech_balloon","exclamation"],"time":1731078339,"title":"From: a","topic":"golockedinstaff"},"timestamp":"2024-11-08T15:05:38.180Z"}
+{"level":"info","message":"User registered","timestamp":"2024-11-08T15:07:00.147Z","userId":3,"username":"r"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:07:01.249Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:07:01.252Z","userId":2,"username":"b"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:07:01.366Z","userId":3}
+{"level":"info","message":"User logged out","timestamp":"2024-11-08T15:07:05.708Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:07:05.750Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-11-08T15:07:07.524Z","userId":3,"username":"r"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:07:07.604Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:07:07.611Z","userId":3,"username":"r"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:07:07.724Z","userId":3}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:07:18.994Z","userId":3}
+{"level":"info","message":"Staff response sent","timestamp":"2024-11-08T15:07:32.667Z","userId":3}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1731121654,"id":"2FdHEeJmFapN","message":"{\"title\":\"Staff Response Sent\",\"message\":\"Staff (undefined) responded to Hi: Hey! Hope you're doing well\",\"priority\":\"high\"}","time":1731078454,"topic":"golockedinstaff"},"timestamp":"2024-11-08T15:07:32.745Z"}
+{"level":"info","message":"User logged out","timestamp":"2024-11-08T15:07:36.912Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:07:37.016Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-11-08T15:07:38.539Z","userId":3,"username":"r"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:07:38.645Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:07:38.659Z","userId":3,"username":"r"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:07:38.662Z","userId":3}
+{"level":"info","message":"Chat message sent","timestamp":"2024-11-08T15:07:41.920Z","userId":3,"username":"r"}
+{"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"QDzBqRsOt7","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1731121663,"id":"lFujozFUSatv","message":"New user message received:\nFrom: r\nMessage: Yeah I should be\nTime: 11/8/2024, 10:07:41 AM","priority":4,"tags":["speech_balloon","exclamation"],"time":1731078463,"title":"From: r","topic":"golockedinstaff"},"timestamp":"2024-11-08T15:07:42.001Z"}
+{"level":"info","message":"Chat message sent","timestamp":"2024-11-08T15:07:45.204Z","userId":3,"username":"r"}
+{"level":"info","message":"Notification sent successfully","response":{"actions":[{"action":"view","clear":false,"id":"8d62MJ5ULg","label":"Open Staff Chat","url":"https://chat.golockedin.com/staff.html"}],"click":"https://chat.golockedin.com/staff.html","event":"message","expires":1731121666,"id":"ZogtMJYQPhYa","message":"New user message received:\nFrom: r\nMessage: How can I do better?\nTime: 11/8/2024, 10:07:45 AM","priority":4,"tags":["speech_balloon","exclamation"],"time":1731078466,"title":"From: r","topic":"golockedinstaff"},"timestamp":"2024-11-08T15:07:45.232Z"}
+{"level":"info","message":"User logged out","timestamp":"2024-11-08T15:08:02.716Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:08:02.766Z"}
+{"level":"info","message":"User logged in","timestamp":"2024-11-08T15:08:05.981Z","userId":3,"username":"r"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:08:06.093Z"}
+{"level":"info","message":"User joined chat","timestamp":"2024-11-08T15:08:06.104Z","userId":3,"username":"r"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:06.107Z","userId":3}
+{"level":"info","message":"Staff response sent","timestamp":"2024-11-08T15:08:11.886Z","userId":3}
+{"level":"info","message":"Notification sent successfully","response":{"event":"message","expires":1731121693,"id":"Iw9j6TOcCtj8","message":"{\"title\":\"Staff Response Sent\",\"message\":\"Staff (undefined) responded to Hi: Well hopefully you can do better by eating more food\",\"priority\":\"high\"}","time":1731078493,"topic":"golockedinstaff"},"timestamp":"2024-11-08T15:08:11.968Z"}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:21.570Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:23.174Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:23.824Z","userId":3}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:24.147Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:24.775Z","userId":3}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:25.012Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:25.260Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:25.563Z","userId":3}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:25.810Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:08:26.025Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:10:22.843Z","userId":3}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:11:47.423Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:11:47.639Z","userId":3}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:11:47.684Z","userId":3}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:11:48.033Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:11:48.262Z","userId":2}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:11:48.467Z","userId":1}
+{"level":"info","message":"Messages marked as read","timestamp":"2024-11-08T15:11:48.703Z","userId":3}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:19:40.902Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:19:41.783Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:19:41.805Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:19:41.811Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:19:41.971Z"}
+{"level":"info","message":"New WebSocket connection","timestamp":"2024-11-08T15:19:41.987Z"}
+{"level":"info","message":"Staff joined chat","timestamp":"2024-11-08T15:19:41.990Z"}
+{"level":"info","message":"User disconnected","timestamp":"2024-11-08T15:19:57.414Z"}

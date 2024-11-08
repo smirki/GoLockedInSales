@@ -18,5 +18,15 @@
     "email": "b",
     "username": "b",
     "password": "$2b$10$kPWSASQa7EfyizbbnVL5WOUXMcemhbzP12Hvx6upFrY1jMqYkAUma"
+  },
+  {
+    "id": 3,
+    "name": "Ryan",
+    "nickname": "Hi",
+    "description": "r",
+    "goals": "r",
+    "email": "r@gmail.com",
+    "username": "r",
+    "password": "$2b$10$aB7HACZl4EnTP89YI2Pb4OTwK3yOCfA4UXiOXX1JxbhIRFkRxxADG"
   }
 ]
